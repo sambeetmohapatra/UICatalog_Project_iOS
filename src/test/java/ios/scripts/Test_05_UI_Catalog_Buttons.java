@@ -27,36 +27,29 @@ public class Test_05_UI_Catalog_Buttons extends Base_Class {
 			
 //Step 1 : Verify App is launched Successfully and HomePage is displayed  
 	logger.log(LogStatus.INFO,"Step 1 : Verify App is launched Successfully an HomePage is displayed ");
-	swipeDown_Vertical(1);
-	WebElement Sliders_id = waitForElement(element.getElementByAccessibilityId("Sliders_id"));
-	Assert.assertTrue(isElementDisplayed(Sliders_id));
-	logger.log(LogStatus.PASS, "Actual : " + showText(Sliders_id));
+	WebElement Buttons_id = waitForElement(element.getElementByAccessibilityId("Buttons_id"));
+	Assert.assertTrue(isElementDisplayed(Buttons_id));
+	logger.log(LogStatus.PASS, "Actual : " + showText(Buttons_id));
 	
-//Step 2 : Click on Sliders label and Validate the Elements Displayed
-	logger.log(LogStatus.INFO,"Step 2 : Click on Sliders label and Validate the Elements Displayed");
-	click(Sliders_id);
+//Step 2 : Click on Buttons label and Validate the Elements Displayed
+	logger.log(LogStatus.INFO,"Step 2 : Click on Buttons label and Validate the Elements Displayed");
+	click(Buttons_id);
 	takeScreenshot();
-	Assert.assertTrue(isElementDisplayed(Sliders_id));
-	WebElement Default_Slider = waitForElement(element.getElementByXpath("Default_Slider_xpath"));
-	Assert.assertTrue(isElementDisplayed(Default_Slider),"Element not displayed");
-	
-	WebElement Tinted_Slider = waitForElement(element.getElementByXpath("Tinted_Slider_xpath"));
-	Assert.assertTrue(isElementDisplayed(Tinted_Slider),"Element not displayed");
+	Assert.assertTrue(isElementDisplayed(Buttons_id));
+	Assert.assertTrue(isElementDisplayed(waitForElement(element.getElementByXpath("System_Text_label_xpath"))));
+	Assert.assertTrue(isElementDisplayed(waitForElement(element.getElementByXpath("Button_xpath"))));
+	Assert.assertTrue(isElementDisplayed(waitForElement(element.getElementByXpath("System_Contact_Add_label_xpath"))));
+	Assert.assertTrue(isElementDisplayed(waitForElement(element.getElementByAccessibilityId("System_disclosure_id"))));
+	Assert.assertTrue(isElementDisplayed(waitForElement(element.getElementByAccessibilityId("More_Info_label_id"))));
+	Assert.assertTrue(isElementDisplayed(waitForElement(element.getElementByAccessibilityId("XButton_id"))));
+	Assert.assertTrue(isElementDisplayed(waitForElement(element.getElementByAccessibilityId("Image_label_id"))));
+	Assert.assertTrue(isElementDisplayed(waitForElement(element.getElementByAccessibilityId("Attributed_Text_id"))));
 
-	WebElement Custom_Slider = waitForElement(element.getElementByXpath("Custom_Slider_xpath"));
-	Assert.assertTrue(isElementDisplayed(Custom_Slider),"Element not displayed");
+	logger.log(LogStatus.PASS, "Validated the Elements in Buttons Screen");
 
-	logger.log(LogStatus.PASS,"Step 2 : Clicked on Sliders label and Validated the Slider Elements Displayed");
-
-//Step 3 : Fetch the value attributes of Sliders
-	logger.log(LogStatus.INFO,"Step 3 : Fetch the value attributes of Sliders");
-	String Default_Slider_value = showAttribute(Default_Slider, "value");
-
-	String Tinted_Slider_value =showAttribute(Tinted_Slider, "value");
-	String Custom_Slider_value= showAttribute(Custom_Slider, "value");
-	logger.log(LogStatus.PASS,"Step 3 : Values are fetched  : " + Default_Slider_value+ " ; "+Tinted_Slider_value+" ; "+
-			Custom_Slider_value);
-	
+//Step 3: Swipe To the Bottom of the Screen 
+	logger.log(LogStatus.INFO,"Step 3 : Swipe To the Bottom of the Screen");
+	swipeDown_Vertical(2);
 	
 //Step 4 : Go Back to Home Screen 
 	logger.log(LogStatus.INFO, "Step 4 : Go Back to Home Screen ");

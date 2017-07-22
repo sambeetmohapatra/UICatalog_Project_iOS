@@ -89,10 +89,10 @@ public class Test_02_UI_Catalog_ActionSheets extends Base_Class {
 	Tap_on_element(element.getElementByAccessibilityId("Destructive Choice_id"));
 	logger.log(LogStatus.PASS, "Action Sheets Screen is displayed");
 
-
 //Step 9 : Go Back to Home Screen 
 	logger.log(LogStatus.INFO, "Step 9 : Go Back to Home Screen ");
 	goBack();
+	
 //Step 10 : Navigate to Action Sheets Screen again . Click on UI Catalog Back Button
 	logger.log(LogStatus.INFO, "Step 10 : Navigate to Action Sheets Screen again . Click on UI Catalog Back Button");
 	click(Action_Sheets_id);
