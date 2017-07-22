@@ -3,15 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="ios.scripts.Test_05_UI_Catalog_Buttons">
+      <class name="ios.scripts.Test_01_Launch_UI_Catalog_HomePage">
         <methods>
-          <include name="after_Suite"/>
-          <include name="test_05_UI_Catalog_Buttons"/>
           <include name="before_Suite"/>
           <include name="before_Method"/>
+          <include name="test_01_Launch_UI_Catalog_HomePage"/>
           <include name="after_Method"/>
         </methods>
-      </class> <!-- ios.scripts.Test_05_UI_Catalog_Buttons -->
+      </class> <!-- ios.scripts.Test_01_Launch_UI_Catalog_HomePage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

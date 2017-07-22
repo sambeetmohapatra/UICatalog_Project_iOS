@@ -2,219 +2,213 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[07_23_2017_02_04_18_587 ***** Suite Execution Started *****]]>
+      <![CDATA[07_23_2017_04_07_47_176 ***** Suite Execution Started *****]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_02_04_19_137 - Waiting for : 10 second(s)]]>
+      <![CDATA[07_23_2017_04_07_47_748 Set Desired Capabilities - iOS]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_02_04_29_165 Set Desired Capabilities - iOS]]>
+      <![CDATA[07_23_2017_04_07_47_751 Launch iOSDriver : Capabilities [{app=/Users/sambeetmohapatra/Downloads/ios-uicatalog-master/build/Release-iphonesimulator/UICatalog.app, noReset=true, platformVersion=10.3, bundleid=com.example.apple-samplecode.UICatalog, platformName=iOS, deviceName=iPhone Simulator}]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_02_04_29_168 Launch iOSDriver : Capabilities [{app=/Users/sambeetmohapatra/Downloads/ios-uicatalog-master/build/Release-iphonesimulator/UICatalog.app, noReset=true, platformVersion=10.3, bundleid=com.example.apple-samplecode.UICatalog, platformName=iOS, deviceName=iPhone Simulator}]]]>
+      <![CDATA[07_23_2017_04_08_39_739 -  Waiting For Element : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_02_04_47_047 - Swiping Vertically Down ]]>
+      <![CDATA[07_23_2017_04_08_40_038 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_02_04_51_465 -  Waiting For Element : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> accessibility id: Sliders]]]>
+      <![CDATA[07_23_2017_04_08_40_303 -  Waiting For Element : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_02_04_51_849 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> accessibility id: Sliders]]]>
+      <![CDATA[07_23_2017_04_08_40_552 - Fetching the text : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_02_04_52_181 -  Waiting For Element : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> accessibility id: Sliders]]]>
+      <![CDATA[07_23_2017_04_08_40_792 -  Waiting For Element : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_02_04_52_515 - Fetching the text : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> accessibility id: Sliders]]]>
+      <![CDATA[07_23_2017_04_08_42_174 - Clicked :  [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_02_04_52_861 -  Waiting For Element : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> accessibility id: Sliders]]]>
+      <![CDATA[07_23_2017_04_08_42_174 - Waiting for : 1 second(s)]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_02_04_53_995 - Clicked :  [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> accessibility id: Sliders]]]>
+      <![CDATA[07_23_2017_04_08_43_175 - Capturing Screenshot and Adding to Extent Reports]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_02_04_53_995 - Waiting for : 1 second(s)]]>
+      <![CDATA[07_23_2017_04_08_44_384 - Go Back]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_02_04_54_995 - Capturing Screenshot and Adding to Extent Reports]]>
+      <![CDATA[07_23_2017_04_08_44_384 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_02_04_55_169 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> accessibility id: Sliders]]]>
+      <![CDATA[07_23_2017_04_08_44_768 -  Waiting For Element : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_02_04_56_572 -  Waiting For Element : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> xpath: //XCUIElementTypeCell[1]/XCUIElementTypeSlider]]]>
+      <![CDATA[07_23_2017_04_08_45_080 - Fetching the text : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_02_04_56_888 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> xpath: //XCUIElementTypeCell[1]/XCUIElementTypeSlider]]]>
+      <![CDATA[07_23_2017_04_08_46_182 -  Swiping Down to Element[[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Toolbars]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_02_04_58_346 -  Waiting For Element : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> xpath: //XCUIElementTypeCell[2]/XCUIElementTypeSlider]]]>
+      <![CDATA[07_23_2017_04_08_50_488 -  Swiping Down to Element[[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Toolbars]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_02_04_58_607 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> xpath: //XCUIElementTypeCell[2]/XCUIElementTypeSlider]]]>
+      <![CDATA[07_23_2017_04_08_57_353 -  Single Tap On Element : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Toolbars]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_02_04_59_983 -  Waiting For Element : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> xpath: //XCUIElementTypeCell[3]/XCUIElementTypeSlider]]]>
+      <![CDATA[07_23_2017_04_08_57_565 -  Waiting For Element : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Toolbars]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_02_05_00_288 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> xpath: //XCUIElementTypeCell[3]/XCUIElementTypeSlider]]]>
+      <![CDATA[07_23_2017_04_08_57_749 - Waiting for : 1 second(s)]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_02_05_00_561 -  Waiting For Element : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> xpath: //XCUIElementTypeCell[1]/XCUIElementTypeSlider]]]>
+      <![CDATA[07_23_2017_04_08_58_755 - Capturing Screenshot and Adding to Extent Reports]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_02_05_00_856 - Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> xpath: //XCUIElementTypeCell[1]/XCUIElementTypeSlider]]]>
+      <![CDATA[07_23_2017_04_09_00_045 - Go Back]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_02_05_01_109 -  Waiting For Element : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> xpath: //XCUIElementTypeCell[2]/XCUIElementTypeSlider]]]>
+      <![CDATA[07_23_2017_04_09_00_045 -  Waiting For Element : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Toolbars]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_02_05_01_402 - Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> xpath: //XCUIElementTypeCell[2]/XCUIElementTypeSlider]]]>
+      <![CDATA[07_23_2017_04_09_00_401 - Fetching the text : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Toolbars]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_02_05_01_649 -  Waiting For Element : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> xpath: //XCUIElementTypeCell[3]/XCUIElementTypeSlider]]]>
+      <![CDATA[07_23_2017_04_09_01_480 -  Swiping Down to Element[[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_02_05_02_015 - Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> xpath: //XCUIElementTypeCell[3]/XCUIElementTypeSlider]]]>
+      <![CDATA[07_23_2017_04_09_06_022 -  Swiping Down to Element[[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_02_05_03_862 - Go Back]]>
+      <![CDATA[07_23_2017_04_09_10_938 App Closed ]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_02_05_04_461 App Closed ]]>
+      <![CDATA[07_23_2017_04_09_10_939 Execution Complete : TEST_01_LAUNCH_UI_CATALOG_HOMEPAGE]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_02_05_04_461 Execution Complete : TEST_05_UI_CATALOG_BUTTONS]]>
-    </line>
-    <line>
-      <![CDATA[07_23_2017_02_05_05_154 ***** Suite Execution Completed *****]]>
+      <![CDATA[07_23_2017_04_09_11_584 ***** Suite Execution Completed *****]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35325" started-at="2017-07-22T20:34:29Z" finished-at="2017-07-22T20:35:04Z">
+  <suite name="Default suite" duration-ms="83217" started-at="2017-07-22T22:37:47Z" finished-at="2017-07-22T22:39:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35325" started-at="2017-07-22T20:34:29Z" finished-at="2017-07-22T20:35:04Z">
-      <class name="ios.scripts.Test_05_UI_Catalog_Buttons">
-        <test-method status="PASS" signature="before_Suite()[pri:0, instance:ios.scripts.Test_05_UI_Catalog_Buttons@4bec1f0c]" name="before_Suite" is-config="true" duration-ms="10562" started-at="2017-07-23T02:04:18Z" finished-at="2017-07-23T02:04:29Z">
+    <test name="Default test" duration-ms="83217" started-at="2017-07-22T22:37:47Z" finished-at="2017-07-22T22:39:10Z">
+      <class name="ios.scripts.Test_01_Launch_UI_Catalog_HomePage">
+        <test-method status="PASS" signature="before_Suite()[pri:0, instance:ios.scripts.Test_01_Launch_UI_Catalog_HomePage@4bec1f0c]" name="before_Suite" is-config="true" duration-ms="560" started-at="2017-07-23T04:07:47Z" finished-at="2017-07-23T04:07:47Z">
           <reporter-output>
             <line>
-              <![CDATA[07_23_2017_02_04_18_587 ***** Suite Execution Started *****]]>
-            </line>
-            <line>
-              <![CDATA[07_23_2017_02_04_19_137 - Waiting for : 10 second(s)]]>
+              <![CDATA[07_23_2017_04_07_47_176 ***** Suite Execution Started *****]]>
             </line>
           </reporter-output>
         </test-method> <!-- before_Suite -->
-        <test-method status="PASS" signature="before_Method()[pri:0, instance:ios.scripts.Test_05_UI_Catalog_Buttons@4bec1f0c]" name="before_Method" is-config="true" duration-ms="17568" started-at="2017-07-23T02:04:29Z" finished-at="2017-07-23T02:04:46Z">
+        <test-method status="PASS" signature="before_Method()[pri:0, instance:ios.scripts.Test_01_Launch_UI_Catalog_HomePage@4bec1f0c]" name="before_Method" is-config="true" duration-ms="51656" started-at="2017-07-23T04:07:47Z" finished-at="2017-07-23T04:08:39Z">
           <reporter-output>
             <line>
-              <![CDATA[07_23_2017_02_04_29_165 Set Desired Capabilities - iOS]]>
+              <![CDATA[07_23_2017_04_07_47_748 Set Desired Capabilities - iOS]]>
             </line>
             <line>
-              <![CDATA[07_23_2017_02_04_29_168 Launch iOSDriver : Capabilities [{app=/Users/sambeetmohapatra/Downloads/ios-uicatalog-master/build/Release-iphonesimulator/UICatalog.app, noReset=true, platformVersion=10.3, bundleid=com.example.apple-samplecode.UICatalog, platformName=iOS, deviceName=iPhone Simulator}]]]>
+              <![CDATA[07_23_2017_04_07_47_751 Launch iOSDriver : Capabilities [{app=/Users/sambeetmohapatra/Downloads/ios-uicatalog-master/build/Release-iphonesimulator/UICatalog.app, noReset=true, platformVersion=10.3, bundleid=com.example.apple-samplecode.UICatalog, platformName=iOS, deviceName=iPhone Simulator}]]]>
             </line>
           </reporter-output>
         </test-method> <!-- before_Method -->
-        <test-method status="PASS" signature="test_05_UI_Catalog_Buttons()[pri:0, instance:ios.scripts.Test_05_UI_Catalog_Buttons@4bec1f0c]" name="test_05_UI_Catalog_Buttons" duration-ms="17133" started-at="2017-07-23T02:04:46Z" finished-at="2017-07-23T02:05:03Z">
+        <test-method status="PASS" signature="test_01_Launch_UI_Catalog_HomePage()[pri:0, instance:ios.scripts.Test_01_Launch_UI_Catalog_HomePage@4bec1f0c]" name="test_01_Launch_UI_Catalog_HomePage" duration-ms="31059" started-at="2017-07-23T04:08:39Z" description="Test UI Catalog APP -Smoke Test" finished-at="2017-07-23T04:09:10Z">
           <reporter-output>
             <line>
-              <![CDATA[07_23_2017_02_04_47_047 - Swiping Vertically Down ]]>
+              <![CDATA[07_23_2017_04_08_39_739 -  Waiting For Element : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
             </line>
             <line>
-              <![CDATA[07_23_2017_02_04_51_465 -  Waiting For Element : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> accessibility id: Sliders]]]>
+              <![CDATA[07_23_2017_04_08_40_038 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
             </line>
             <line>
-              <![CDATA[07_23_2017_02_04_51_849 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> accessibility id: Sliders]]]>
+              <![CDATA[07_23_2017_04_08_40_303 -  Waiting For Element : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
             </line>
             <line>
-              <![CDATA[07_23_2017_02_04_52_181 -  Waiting For Element : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> accessibility id: Sliders]]]>
+              <![CDATA[07_23_2017_04_08_40_552 - Fetching the text : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
             </line>
             <line>
-              <![CDATA[07_23_2017_02_04_52_515 - Fetching the text : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> accessibility id: Sliders]]]>
+              <![CDATA[07_23_2017_04_08_40_792 -  Waiting For Element : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
             </line>
             <line>
-              <![CDATA[07_23_2017_02_04_52_861 -  Waiting For Element : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> accessibility id: Sliders]]]>
+              <![CDATA[07_23_2017_04_08_42_174 - Clicked :  [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
             </line>
             <line>
-              <![CDATA[07_23_2017_02_04_53_995 - Clicked :  [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> accessibility id: Sliders]]]>
+              <![CDATA[07_23_2017_04_08_42_174 - Waiting for : 1 second(s)]]>
             </line>
             <line>
-              <![CDATA[07_23_2017_02_04_53_995 - Waiting for : 1 second(s)]]>
+              <![CDATA[07_23_2017_04_08_43_175 - Capturing Screenshot and Adding to Extent Reports]]>
             </line>
             <line>
-              <![CDATA[07_23_2017_02_04_54_995 - Capturing Screenshot and Adding to Extent Reports]]>
+              <![CDATA[07_23_2017_04_08_44_384 - Go Back]]>
             </line>
             <line>
-              <![CDATA[07_23_2017_02_04_55_169 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> accessibility id: Sliders]]]>
+              <![CDATA[07_23_2017_04_08_44_384 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
             </line>
             <line>
-              <![CDATA[07_23_2017_02_04_56_572 -  Waiting For Element : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> xpath: //XCUIElementTypeCell[1]/XCUIElementTypeSlider]]]>
+              <![CDATA[07_23_2017_04_08_44_768 -  Waiting For Element : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
             </line>
             <line>
-              <![CDATA[07_23_2017_02_04_56_888 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> xpath: //XCUIElementTypeCell[1]/XCUIElementTypeSlider]]]>
+              <![CDATA[07_23_2017_04_08_45_080 - Fetching the text : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
             </line>
             <line>
-              <![CDATA[07_23_2017_02_04_58_346 -  Waiting For Element : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> xpath: //XCUIElementTypeCell[2]/XCUIElementTypeSlider]]]>
+              <![CDATA[07_23_2017_04_08_46_182 -  Swiping Down to Element[[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Toolbars]]]>
             </line>
             <line>
-              <![CDATA[07_23_2017_02_04_58_607 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> xpath: //XCUIElementTypeCell[2]/XCUIElementTypeSlider]]]>
+              <![CDATA[07_23_2017_04_08_50_488 -  Swiping Down to Element[[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Toolbars]]]>
             </line>
             <line>
-              <![CDATA[07_23_2017_02_04_59_983 -  Waiting For Element : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> xpath: //XCUIElementTypeCell[3]/XCUIElementTypeSlider]]]>
+              <![CDATA[07_23_2017_04_08_57_353 -  Single Tap On Element : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Toolbars]]]>
             </line>
             <line>
-              <![CDATA[07_23_2017_02_05_00_288 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> xpath: //XCUIElementTypeCell[3]/XCUIElementTypeSlider]]]>
+              <![CDATA[07_23_2017_04_08_57_565 -  Waiting For Element : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Toolbars]]]>
             </line>
             <line>
-              <![CDATA[07_23_2017_02_05_00_561 -  Waiting For Element : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> xpath: //XCUIElementTypeCell[1]/XCUIElementTypeSlider]]]>
+              <![CDATA[07_23_2017_04_08_57_749 - Waiting for : 1 second(s)]]>
             </line>
             <line>
-              <![CDATA[07_23_2017_02_05_00_856 - Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> xpath: //XCUIElementTypeCell[1]/XCUIElementTypeSlider]]]>
+              <![CDATA[07_23_2017_04_08_58_755 - Capturing Screenshot and Adding to Extent Reports]]>
             </line>
             <line>
-              <![CDATA[07_23_2017_02_05_01_109 -  Waiting For Element : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> xpath: //XCUIElementTypeCell[2]/XCUIElementTypeSlider]]]>
+              <![CDATA[07_23_2017_04_09_00_045 - Go Back]]>
             </line>
             <line>
-              <![CDATA[07_23_2017_02_05_01_402 - Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> xpath: //XCUIElementTypeCell[2]/XCUIElementTypeSlider]]]>
+              <![CDATA[07_23_2017_04_09_00_045 -  Waiting For Element : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Toolbars]]]>
             </line>
             <line>
-              <![CDATA[07_23_2017_02_05_01_649 -  Waiting For Element : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> xpath: //XCUIElementTypeCell[3]/XCUIElementTypeSlider]]]>
+              <![CDATA[07_23_2017_04_09_00_401 - Fetching the text : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Toolbars]]]>
             </line>
             <line>
-              <![CDATA[07_23_2017_02_05_02_015 - Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (46a09d82-3445-4bb0-b4e5-41baebd51430)] -> xpath: //XCUIElementTypeCell[3]/XCUIElementTypeSlider]]]>
+              <![CDATA[07_23_2017_04_09_01_480 -  Swiping Down to Element[[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
             </line>
             <line>
-              <![CDATA[07_23_2017_02_05_03_862 - Go Back]]>
+              <![CDATA[07_23_2017_04_09_06_022 -  Swiping Down to Element[[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
             </line>
           </reporter-output>
-        </test-method> <!-- test_05_UI_Catalog_Buttons -->
-        <test-method status="PASS" signature="after_Method(org.testng.ITestResult)[pri:0, instance:ios.scripts.Test_05_UI_Catalog_Buttons@4bec1f0c]" name="after_Method" is-config="true" duration-ms="600" started-at="2017-07-23T02:05:03Z" finished-at="2017-07-23T02:05:04Z">
+        </test-method> <!-- test_01_Launch_UI_Catalog_HomePage -->
+        <test-method status="PASS" signature="after_Method(org.testng.ITestResult)[pri:0, instance:ios.scripts.Test_01_Launch_UI_Catalog_HomePage@4bec1f0c]" name="after_Method" is-config="true" duration-ms="478" started-at="2017-07-23T04:09:10Z" finished-at="2017-07-23T04:09:10Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test_05_UI_Catalog_Buttons status=SUCCESS method=Test_05_UI_Catalog_Buttons.test_05_UI_Catalog_Buttons()[pri:0, instance:ios.scripts.Test_05_UI_Catalog_Buttons@4bec1f0c] output=07_23_2017_02_04_47_047 - Swiping Vertically Down ]]]>
+                <![CDATA[[TestResult name=test_01_Launch_UI_Catalog_HomePage status=SUCCESS method=Test_01_Launch_UI_Catalog_HomePage.test_01_Launch_UI_Catalog_HomePage()[pri:0, instance:ios.scripts.Test_01_Launch_UI_Catalog_HomePage@4bec1f0c] output=07_23_2017_04_08_39_739 -  Waiting For Element : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[07_23_2017_02_05_04_461 App Closed ]]>
+              <![CDATA[07_23_2017_04_09_10_938 App Closed ]]>
             </line>
             <line>
-              <![CDATA[07_23_2017_02_05_04_461 Execution Complete : TEST_05_UI_CATALOG_BUTTONS]]>
+              <![CDATA[07_23_2017_04_09_10_939 Execution Complete : TEST_01_LAUNCH_UI_CATALOG_HOMEPAGE]]>
             </line>
           </reporter-output>
         </test-method> <!-- after_Method -->
-        <test-method status="PASS" signature="after_Suite()[pri:0, instance:ios.scripts.Test_05_UI_Catalog_Buttons@4bec1f0c]" name="after_Suite" is-config="true" duration-ms="669" started-at="2017-07-23T02:05:04Z" finished-at="2017-07-23T02:05:05Z">
+        <test-method status="PASS" signature="after_Suite()[pri:0, instance:ios.scripts.Test_01_Launch_UI_Catalog_HomePage@4bec1f0c]" name="after_Suite" is-config="true" duration-ms="464" started-at="2017-07-23T04:09:11Z" finished-at="2017-07-23T04:09:11Z">
           <reporter-output>
             <line>
-              <![CDATA[07_23_2017_02_05_05_154 ***** Suite Execution Completed *****]]>
+              <![CDATA[07_23_2017_04_09_11_584 ***** Suite Execution Completed *****]]>
             </line>
           </reporter-output>
         </test-method> <!-- after_Suite -->
-      </class> <!-- ios.scripts.Test_05_UI_Catalog_Buttons -->
+      </class> <!-- ios.scripts.Test_01_Launch_UI_Catalog_HomePage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

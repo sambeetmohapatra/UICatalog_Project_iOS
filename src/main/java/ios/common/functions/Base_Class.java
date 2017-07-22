@@ -142,6 +142,7 @@ public class Base_Class extends Utility {
 	
 	//Launch Application on iPhone 6 Simulator - iOS 10.3
 	public void Launch_App() throws Exception{
+		try {
 		//Set Desired Capabilities
 		Reporter.log(getFormatedDateTime()+" Set Desired Capabilities - iOS",true);
 				
@@ -160,6 +161,10 @@ public class Base_Class extends Utility {
 				
 				driver = new IOSDriver<WebElement>(new URL("http://127.0.0.1:4723/wd/hub"), caps);
 				driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		}
+		catch (Exception e) {
+			Reporter.log("Please Start/Restart Appium Server , Not Starting it Programatically",true);
+		}
 	}
 	
 	

@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="iOSTest"
-           tests="1"
+           tests="3"
            failures="0"
            errors="0"
-           skipped="0"
-           time="36.942">
+           skipped="3"
+           time="0.000">
   <properties />
   
+            <testcase name="before_Method" time="0.0" classname="ios.scripts.Test_02_UI_Catalog_ActionSheets">
+          <skipped />
+    </testcase>
+            <testcase name="after_Method" time="0.0" classname="ios.scripts.Test_02_UI_Catalog_ActionSheets">
+          <skipped />
+    </testcase>
+            <testcase name="test_02_UI_Catalog_ActionSheets" time="0.0" classname="ios.scripts.Test_02_UI_Catalog_ActionSheets">
+          <skipped />
+    </testcase>
   
-            <testcase name="test_02_UI_Catalog_ActionSheets" time="36.942" classname="ios.scripts.Test_02_UI_Catalog_ActionSheets" />
-      
+  
 </testsuite>
