@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="22.086">
+  <properties />
+  
+  
+            <testcase name="test_Sample_Swipe" time="22.086" classname="ios.scripts.Sample_Swipe" />
+      
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="iOSTest"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="32.985">
+  <properties />
+  
+  
+            <testcase name="test_01_Launch_UI_Catalog_HomePage" time="32.985" classname="ios.scripts.Test_01_Launch_UI_Catalog_HomePage" />
+      
+</testsuite>
