@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [iOSSuite]">
+  <test name="iOSTest(failed)">
+    <classes>
+      <class name="ios.scripts.Test_04_UI_Catalog_AlertViews">
+        <methods>
+          <include name="test_04_UI_Catalog_AlertViews" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ios.scripts.Test_04_UI_Catalog_AlertViews -->
+      <class name="ios.scripts.Test_01_Launch_UI_Catalog_HomePage">
+        <methods>
+          <include name="before_Suite"/>
+          <include name="before_Method"/>
+          <include name="test_01_Launch_UI_Catalog_HomePage"/>
+          <include name="after_Method"/>
+        </methods>
+      </class> <!-- ios.scripts.Test_01_Launch_UI_Catalog_HomePage -->
+      <class name="ios.scripts.Test_03_UI_Catalog_ActivityIndicators">
+        <methods>
+          <include name="test_03_UI_Catalog_ActivityIndicators"/>
+        </methods>
+      </class> <!-- ios.scripts.Test_03_UI_Catalog_ActivityIndicators -->
+      <class name="ios.scripts.Test_06_UI_Catalog_DatePicker">
+        <methods>
+          <include name="test_06_UI_Catalog_DatePicker"/>
+        </methods>
+      </class> <!-- ios.scripts.Test_06_UI_Catalog_DatePicker -->
+      <class name="ios.scripts.Test_02_UI_Catalog_ActionSheets">
+        <methods>
+          <include name="test_02_UI_Catalog_ActionSheets"/>
+        </methods>
+      </class> <!-- ios.scripts.Test_02_UI_Catalog_ActionSheets -->
+      <class name="ios.scripts.Test_05_UI_Catalog_Buttons">
+        <methods>
+          <include name="test_05_UI_Catalog_Buttons"/>
+        </methods>
+      </class> <!-- ios.scripts.Test_05_UI_Catalog_Buttons -->
+      <class name="ios.scripts.Test_08_UI_Catalog_Sliders">
+        <methods>
+          <include name="test_05_UI_Catalog_Sliders"/>
+        </methods>
+      </class> <!-- ios.scripts.Test_08_UI_Catalog_Sliders -->
+      <class name="ios.scripts.Test_07_UI_Catalog_SegmentedControls">
+        <methods>
+          <include name="test_07_UI_Catalog_SegmentedControls" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ios.scripts.Test_07_UI_Catalog_SegmentedControls -->
+    </classes>
+  </test> <!-- iOSTest(failed) -->
+</suite> <!-- Failed suite [iOSSuite] -->
