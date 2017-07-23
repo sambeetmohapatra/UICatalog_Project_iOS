@@ -2,213 +2,1000 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[07_23_2017_04_07_47_176 ***** Suite Execution Started *****]]>
+      <![CDATA[07_23_2017_07_29_06_434 ***** Suite Execution Started *****]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_04_07_47_748 Set Desired Capabilities - iOS]]>
+      <![CDATA[07_23_2017_07_29_07_864 Set Desired Capabilities - iOS]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_04_07_47_751 Launch iOSDriver : Capabilities [{app=/Users/sambeetmohapatra/Downloads/ios-uicatalog-master/build/Release-iphonesimulator/UICatalog.app, noReset=true, platformVersion=10.3, bundleid=com.example.apple-samplecode.UICatalog, platformName=iOS, deviceName=iPhone Simulator}]]]>
+      <![CDATA[07_23_2017_07_29_07_868 Launch iOSDriver : Capabilities [{app=/Users/sambeetmohapatra/Downloads/ios-uicatalog-master/build/Release-iphonesimulator/UICatalog.app, noReset=true, platformVersion=10.3, bundleid=com.example.apple-samplecode.UICatalog, platformName=iOS, deviceName=iPhone Simulator}]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_04_08_39_739 -  Waiting For Element : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
+      <![CDATA[07_23_2017_07_29_35_497 - Swiping Vertically Down ]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_04_08_40_038 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
+      <![CDATA[07_23_2017_07_29_39_924 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> accessibility id: Steppers]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_04_08_40_303 -  Waiting For Element : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
+      <![CDATA[07_23_2017_07_29_40_349 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> accessibility id: Steppers]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_04_08_40_552 - Fetching the text : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
+      <![CDATA[07_23_2017_07_29_40_909 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> accessibility id: Steppers]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_04_08_40_792 -  Waiting For Element : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
+      <![CDATA[07_23_2017_07_29_41_304 - Fetching the text : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> accessibility id: Steppers]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_04_08_42_174 - Clicked :  [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
+      <![CDATA[07_23_2017_07_29_41_727 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> accessibility id: Steppers]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_04_08_42_174 - Waiting for : 1 second(s)]]>
+      <![CDATA[07_23_2017_07_29_42_864 - Clicked :  [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> accessibility id: Steppers]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_04_08_43_175 - Capturing Screenshot and Adding to Extent Reports]]>
+      <![CDATA[07_23_2017_07_29_42_864 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> accessibility id: Steppers]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_04_08_44_384 - Go Back]]>
+      <![CDATA[07_23_2017_07_29_43_313 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> accessibility id: Steppers]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_04_08_44_384 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
+      <![CDATA[07_23_2017_07_29_43_654 - Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> accessibility id: Steppers]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_04_08_44_768 -  Waiting For Element : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
+      <![CDATA[07_23_2017_07_29_44_835 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='DEFAULT']]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_04_08_45_080 - Fetching the text : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
+      <![CDATA[07_23_2017_07_29_45_084 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='DEFAULT']]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_04_08_46_182 -  Swiping Down to Element[[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Toolbars]]]>
+      <![CDATA[07_23_2017_07_29_45_331 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='DEFAULT']]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_04_08_50_488 -  Swiping Down to Element[[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Toolbars]]]>
+      <![CDATA[07_23_2017_07_29_45_576 - Fetching the text : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='DEFAULT']]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_04_08_57_353 -  Single Tap On Element : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Toolbars]]]>
+      <![CDATA[07_23_2017_07_29_46_772 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='TINTED']]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_04_08_57_565 -  Waiting For Element : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Toolbars]]]>
+      <![CDATA[07_23_2017_07_29_47_004 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='TINTED']]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_04_08_57_749 - Waiting for : 1 second(s)]]>
+      <![CDATA[07_23_2017_07_29_47_237 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='TINTED']]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_04_08_58_755 - Capturing Screenshot and Adding to Extent Reports]]>
+      <![CDATA[07_23_2017_07_29_47_499 - Fetching the text : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='TINTED']]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_04_09_00_045 - Go Back]]>
+      <![CDATA[07_23_2017_07_29_48_735 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='CUSTOM']]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_04_09_00_045 -  Waiting For Element : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Toolbars]]]>
+      <![CDATA[07_23_2017_07_29_48_970 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='CUSTOM']]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_04_09_00_401 - Fetching the text : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Toolbars]]]>
+      <![CDATA[07_23_2017_07_29_49_223 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='CUSTOM']]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_04_09_01_480 -  Swiping Down to Element[[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
+      <![CDATA[07_23_2017_07_29_49_455 - Fetching the text : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='CUSTOM']]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_04_09_06_022 -  Swiping Down to Element[[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
+      <![CDATA[07_23_2017_07_29_49_683 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='DEFAULT']]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_04_09_10_938 App Closed ]]>
+      <![CDATA[07_23_2017_07_29_49_926 - Fetching the text : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='DEFAULT']]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_04_09_10_939 Execution Complete : TEST_01_LAUNCH_UI_CATALOG_HOMEPAGE]]>
+      <![CDATA[07_23_2017_07_29_50_191 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='TINTED']]]]>
     </line>
     <line>
-      <![CDATA[07_23_2017_04_09_11_584 ***** Suite Execution Completed *****]]>
+      <![CDATA[07_23_2017_07_29_50_410 - Fetching the text : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='TINTED']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_29_50_632 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='CUSTOM']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_29_50_895 - Fetching the text : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='CUSTOM']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_29_52_107 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_29_52_340 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_29_53_806 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_29_54_041 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_29_55_338 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeStaticText]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_29_55_576 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeStaticText]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_29_56_866 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_29_57_134 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_29_59_138 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_29_59_409 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_00_936 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeStaticText]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_01_271 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeStaticText]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_02_657 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_03_008 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_04_447 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_04_762 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_06_292 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeStaticText]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_06_622 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeStaticText]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_08_090 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_08_407 - Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_09_913 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_10_241 - Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_10_512 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_10_784 - Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_11_040 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_11_379 - Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_14_602 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_16_494 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_18_385 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_20_320 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_22_224 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_24_176 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_26_074 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_28_010 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_29_911 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_31_802 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_31_802 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_32_025 - Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[Total Tap : Increment = 10]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_33_462 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeStaticText]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_33_768 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeStaticText]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_34_079 - Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeStaticText]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_34_409 - Waiting for : 1 second(s)]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_35_410 - Capturing Screenshot and Adding to Extent Reports]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_38_534 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_40_469 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_42_368 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_44_253 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_46_153 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_48_044 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_49_946 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_51_842 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_53_722 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_53_723 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_53_940 - Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[Total Tap : Decrement = 9]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_55_131 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeStaticText]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_55_432 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeStaticText]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_55_722 - Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeStaticText]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_30_58_986 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_00_913 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_02_848 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_04_794 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_06_725 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_08_683 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_10_565 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_12_438 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_14_324 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_16_183 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_16_184 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_16_389 - Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[Total Tap : Increment = 10]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_17_540 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeStaticText]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_17_736 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeStaticText]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_17_995 - Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeStaticText]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_18_229 - Waiting for : 1 second(s)]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_19_234 - Capturing Screenshot and Adding to Extent Reports]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_22_089 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_24_027 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_25_918 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_27_762 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_29_623 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_31_481 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_33_360 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_35_235 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_37_086 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_37_086 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_37_290 - Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[Total Tap : Decrement = 9]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_38_424 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeStaticText]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_38_649 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeStaticText]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_38_876 - Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeStaticText]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_41_906 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_43_757 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_45_606 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_47_474 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_49_344 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_51_213 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_53_075 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_54_945 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_56_820 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_58_992 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_58_992 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_31_59_193 - Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+    </line>
+    <line>
+      <![CDATA[Total Tap : Increment = 10]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_32_00_336 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeStaticText]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_32_00_563 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeStaticText]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_32_00_801 - Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeStaticText]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_32_01_026 - Waiting for : 1 second(s)]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_32_02_032 - Capturing Screenshot and Adding to Extent Reports]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_32_04_948 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_32_06_817 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_32_08_680 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_32_10_530 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_32_12_410 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_32_14_273 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_32_16_162 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_32_18_016 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_32_18_016 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_32_18_255 - Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]]]>
+    </line>
+    <line>
+      <![CDATA[Total Tap : Decrement = 8]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_32_19_383 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeStaticText]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_32_19_625 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeStaticText]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_32_19_885 - Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeStaticText]]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_32_21_427 - Go Back]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_32_22_037 App Closed ]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_32_22_037 Execution Complete : TEST_09_UI_CATALOG_STEPPERS]]>
+    </line>
+    <line>
+      <![CDATA[07_23_2017_07_32_22_684 ***** Suite Execution Completed *****]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="83217" started-at="2017-07-22T22:37:47Z" finished-at="2017-07-22T22:39:10Z">
+  <suite name="Default suite" duration-ms="194823" started-at="2017-07-23T13:59:07Z" finished-at="2017-07-23T14:02:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="83217" started-at="2017-07-22T22:37:47Z" finished-at="2017-07-22T22:39:10Z">
-      <class name="ios.scripts.Test_01_Launch_UI_Catalog_HomePage">
-        <test-method status="PASS" signature="before_Suite()[pri:0, instance:ios.scripts.Test_01_Launch_UI_Catalog_HomePage@4bec1f0c]" name="before_Suite" is-config="true" duration-ms="560" started-at="2017-07-23T04:07:47Z" finished-at="2017-07-23T04:07:47Z">
+    <test name="Default test" duration-ms="194823" started-at="2017-07-23T13:59:07Z" finished-at="2017-07-23T14:02:22Z">
+      <class name="ios.scripts.Test_09_UI_Catalog_Steppers">
+        <test-method status="PASS" signature="before_Suite()[pri:0, instance:ios.scripts.Test_09_UI_Catalog_Steppers@5649fd9b]" name="before_Suite" is-config="true" duration-ms="794" started-at="2017-07-23T19:29:06Z" finished-at="2017-07-23T19:29:07Z">
           <reporter-output>
             <line>
-              <![CDATA[07_23_2017_04_07_47_176 ***** Suite Execution Started *****]]>
+              <![CDATA[07_23_2017_07_29_06_434 ***** Suite Execution Started *****]]>
             </line>
           </reporter-output>
         </test-method> <!-- before_Suite -->
-        <test-method status="PASS" signature="before_Method()[pri:0, instance:ios.scripts.Test_01_Launch_UI_Catalog_HomePage@4bec1f0c]" name="before_Method" is-config="true" duration-ms="51656" started-at="2017-07-23T04:07:47Z" finished-at="2017-07-23T04:08:39Z">
+        <test-method status="PASS" signature="before_Method()[pri:0, instance:ios.scripts.Test_09_UI_Catalog_Steppers@5649fd9b]" name="before_Method" is-config="true" duration-ms="27339" started-at="2017-07-23T19:29:07Z" finished-at="2017-07-23T19:29:35Z">
           <reporter-output>
             <line>
-              <![CDATA[07_23_2017_04_07_47_748 Set Desired Capabilities - iOS]]>
+              <![CDATA[07_23_2017_07_29_07_864 Set Desired Capabilities - iOS]]>
             </line>
             <line>
-              <![CDATA[07_23_2017_04_07_47_751 Launch iOSDriver : Capabilities [{app=/Users/sambeetmohapatra/Downloads/ios-uicatalog-master/build/Release-iphonesimulator/UICatalog.app, noReset=true, platformVersion=10.3, bundleid=com.example.apple-samplecode.UICatalog, platformName=iOS, deviceName=iPhone Simulator}]]]>
+              <![CDATA[07_23_2017_07_29_07_868 Launch iOSDriver : Capabilities [{app=/Users/sambeetmohapatra/Downloads/ios-uicatalog-master/build/Release-iphonesimulator/UICatalog.app, noReset=true, platformVersion=10.3, bundleid=com.example.apple-samplecode.UICatalog, platformName=iOS, deviceName=iPhone Simulator}]]]>
             </line>
           </reporter-output>
         </test-method> <!-- before_Method -->
-        <test-method status="PASS" signature="test_01_Launch_UI_Catalog_HomePage()[pri:0, instance:ios.scripts.Test_01_Launch_UI_Catalog_HomePage@4bec1f0c]" name="test_01_Launch_UI_Catalog_HomePage" duration-ms="31059" started-at="2017-07-23T04:08:39Z" description="Test UI Catalog APP -Smoke Test" finished-at="2017-07-23T04:09:10Z">
-          <reporter-output>
-            <line>
-              <![CDATA[07_23_2017_04_08_39_739 -  Waiting For Element : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
-            </line>
-            <line>
-              <![CDATA[07_23_2017_04_08_40_038 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
-            </line>
-            <line>
-              <![CDATA[07_23_2017_04_08_40_303 -  Waiting For Element : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
-            </line>
-            <line>
-              <![CDATA[07_23_2017_04_08_40_552 - Fetching the text : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
-            </line>
-            <line>
-              <![CDATA[07_23_2017_04_08_40_792 -  Waiting For Element : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
-            </line>
-            <line>
-              <![CDATA[07_23_2017_04_08_42_174 - Clicked :  [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
-            </line>
-            <line>
-              <![CDATA[07_23_2017_04_08_42_174 - Waiting for : 1 second(s)]]>
-            </line>
-            <line>
-              <![CDATA[07_23_2017_04_08_43_175 - Capturing Screenshot and Adding to Extent Reports]]>
-            </line>
-            <line>
-              <![CDATA[07_23_2017_04_08_44_384 - Go Back]]>
-            </line>
-            <line>
-              <![CDATA[07_23_2017_04_08_44_384 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
-            </line>
-            <line>
-              <![CDATA[07_23_2017_04_08_44_768 -  Waiting For Element : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
-            </line>
-            <line>
-              <![CDATA[07_23_2017_04_08_45_080 - Fetching the text : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
-            </line>
-            <line>
-              <![CDATA[07_23_2017_04_08_46_182 -  Swiping Down to Element[[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Toolbars]]]>
-            </line>
-            <line>
-              <![CDATA[07_23_2017_04_08_50_488 -  Swiping Down to Element[[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Toolbars]]]>
-            </line>
-            <line>
-              <![CDATA[07_23_2017_04_08_57_353 -  Single Tap On Element : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Toolbars]]]>
-            </line>
-            <line>
-              <![CDATA[07_23_2017_04_08_57_565 -  Waiting For Element : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Toolbars]]]>
-            </line>
-            <line>
-              <![CDATA[07_23_2017_04_08_57_749 - Waiting for : 1 second(s)]]>
-            </line>
-            <line>
-              <![CDATA[07_23_2017_04_08_58_755 - Capturing Screenshot and Adding to Extent Reports]]>
-            </line>
-            <line>
-              <![CDATA[07_23_2017_04_09_00_045 - Go Back]]>
-            </line>
-            <line>
-              <![CDATA[07_23_2017_04_09_00_045 -  Waiting For Element : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Toolbars]]]>
-            </line>
-            <line>
-              <![CDATA[07_23_2017_04_09_00_401 - Fetching the text : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Toolbars]]]>
-            </line>
-            <line>
-              <![CDATA[07_23_2017_04_09_01_480 -  Swiping Down to Element[[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
-            </line>
-            <line>
-              <![CDATA[07_23_2017_04_09_06_022 -  Swiping Down to Element[[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test_01_Launch_UI_Catalog_HomePage -->
-        <test-method status="PASS" signature="after_Method(org.testng.ITestResult)[pri:0, instance:ios.scripts.Test_01_Launch_UI_Catalog_HomePage@4bec1f0c]" name="after_Method" is-config="true" duration-ms="478" started-at="2017-07-23T04:09:10Z" finished-at="2017-07-23T04:09:10Z">
+        <test-method status="PASS" signature="test_09_UI_Catalog_Steppers(java.util.Map)[pri:0, instance:ios.scripts.Test_09_UI_Catalog_Steppers@5649fd9b]" name="test_09_UI_Catalog_Steppers" duration-ms="166230" started-at="2017-07-23T19:29:35Z" data-provider="dp_Test_09_UI_Catalog_Steppers" finished-at="2017-07-23T19:32:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test_01_Launch_UI_Catalog_HomePage status=SUCCESS method=Test_01_Launch_UI_Catalog_HomePage.test_01_Launch_UI_Catalog_HomePage()[pri:0, instance:ios.scripts.Test_01_Launch_UI_Catalog_HomePage@4bec1f0c] output=07_23_2017_04_08_39_739 -  Waiting For Element : [[IOSDriver:  on MAC (a2a9df7a-61eb-4cfc-916e-8ede09280180)] -> accessibility id: Action Sheets]]]]>
+                <![CDATA[{Script_name=Test_09_UI_Catalog_Steppers, TestData_2=TINTED, TestData_1=DEFAULT, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=Decrement, TestData_3=CUSTOM, TestData_6=10, TestData_5=Increment, TestData_8=, TestData_7=, TestData_9=}]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[07_23_2017_04_09_10_938 App Closed ]]>
+              <![CDATA[07_23_2017_07_29_35_497 - Swiping Vertically Down ]]>
             </line>
             <line>
-              <![CDATA[07_23_2017_04_09_10_939 Execution Complete : TEST_01_LAUNCH_UI_CATALOG_HOMEPAGE]]>
+              <![CDATA[07_23_2017_07_29_39_924 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> accessibility id: Steppers]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_40_349 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> accessibility id: Steppers]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_40_909 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> accessibility id: Steppers]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_41_304 - Fetching the text : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> accessibility id: Steppers]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_41_727 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> accessibility id: Steppers]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_42_864 - Clicked :  [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> accessibility id: Steppers]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_42_864 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> accessibility id: Steppers]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_43_313 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> accessibility id: Steppers]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_43_654 - Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> accessibility id: Steppers]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_44_835 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='DEFAULT']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_45_084 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='DEFAULT']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_45_331 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='DEFAULT']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_45_576 - Fetching the text : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='DEFAULT']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_46_772 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='TINTED']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_47_004 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='TINTED']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_47_237 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='TINTED']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_47_499 - Fetching the text : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='TINTED']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_48_735 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='CUSTOM']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_48_970 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='CUSTOM']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_49_223 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='CUSTOM']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_49_455 - Fetching the text : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='CUSTOM']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_49_683 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='DEFAULT']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_49_926 - Fetching the text : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='DEFAULT']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_50_191 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='TINTED']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_50_410 - Fetching the text : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='TINTED']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_50_632 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='CUSTOM']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_50_895 - Fetching the text : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeOther[@name='CUSTOM']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_52_107 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_52_340 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_53_806 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_54_041 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_55_338 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeStaticText]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_55_576 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeStaticText]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_56_866 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_57_134 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_59_138 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_29_59_409 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_00_936 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeStaticText]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_01_271 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeStaticText]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_02_657 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_03_008 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_04_447 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_04_762 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_06_292 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeStaticText]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_06_622 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeStaticText]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_08_090 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_08_407 - Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_09_913 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_10_241 - Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_10_512 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_10_784 - Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_11_040 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_11_379 - Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_14_602 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_16_494 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_18_385 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_20_320 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_22_224 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_24_176 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_26_074 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_28_010 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_29_911 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_31_802 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_31_802 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_32_025 - Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[Total Tap : Increment = 10]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_33_462 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeStaticText]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_33_768 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeStaticText]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_34_079 - Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeStaticText]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_34_409 - Waiting for : 1 second(s)]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_35_410 - Capturing Screenshot and Adding to Extent Reports]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_38_534 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_40_469 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_42_368 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_44_253 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_46_153 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_48_044 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_49_946 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_51_842 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_53_722 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_53_723 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_53_940 - Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[Total Tap : Decrement = 9]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_55_131 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeStaticText]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_55_432 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeStaticText]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_55_722 - Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeStaticText]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_30_58_986 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_00_913 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_02_848 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_04_794 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_06_725 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_08_683 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_10_565 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_12_438 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_14_324 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_16_183 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_16_184 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_16_389 - Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[Total Tap : Increment = 10]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_17_540 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeStaticText]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_17_736 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeStaticText]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_17_995 - Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeStaticText]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_18_229 - Waiting for : 1 second(s)]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_19_234 - Capturing Screenshot and Adding to Extent Reports]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_22_089 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_24_027 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_25_918 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_27_762 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_29_623 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_31_481 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_33_360 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_35_235 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_37_086 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_37_086 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_37_290 - Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[Total Tap : Decrement = 9]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_38_424 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeStaticText]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_38_649 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeStaticText]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_38_876 - Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeStaticText]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_41_906 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_43_757 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_45_606 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_47_474 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_49_344 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_51_213 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_53_075 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_54_945 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_56_820 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_58_992 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_58_992 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_31_59_193 - Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']]]]>
+            </line>
+            <line>
+              <![CDATA[Total Tap : Increment = 10]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_32_00_336 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeStaticText]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_32_00_563 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeStaticText]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_32_00_801 - Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeStaticText]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_32_01_026 - Waiting for : 1 second(s)]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_32_02_032 - Capturing Screenshot and Adding to Extent Reports]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_32_04_948 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_32_06_817 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_32_08_680 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_32_10_530 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_32_12_410 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_32_14_273 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_32_16_162 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_32_18_016 -  Single Tap On Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_32_18_016 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_32_18_255 - Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']]]]>
+            </line>
+            <line>
+              <![CDATA[Total Tap : Decrement = 8]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_32_19_383 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeStaticText]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_32_19_625 -  Waiting For Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeStaticText]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_32_19_885 - Fetching the Attribute : value - Element : [[IOSDriver:  on MAC (ab13e07f-a597-44dc-98e8-7cdcc35733ff)] -> xpath: //XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeStaticText]]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_32_21_427 - Go Back]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_09_UI_Catalog_Steppers -->
+        <test-method status="PASS" signature="after_Method(org.testng.ITestResult)[pri:0, instance:ios.scripts.Test_09_UI_Catalog_Steppers@5649fd9b]" name="after_Method" is-config="true" duration-ms="610" started-at="2017-07-23T19:32:21Z" finished-at="2017-07-23T19:32:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_09_UI_Catalog_Steppers status=SUCCESS method=Test_09_UI_Catalog_Steppers.test_09_UI_Catalog_Steppers(java.util.Map)[pri:0, instance:ios.scripts.Test_09_UI_Catalog_Steppers@5649fd9b] output=07_23_2017_07_29_35_497 - Swiping Vertically Down ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[07_23_2017_07_32_22_037 App Closed ]]>
+            </line>
+            <line>
+              <![CDATA[07_23_2017_07_32_22_037 Execution Complete : TEST_09_UI_CATALOG_STEPPERS]]>
             </line>
           </reporter-output>
         </test-method> <!-- after_Method -->
-        <test-method status="PASS" signature="after_Suite()[pri:0, instance:ios.scripts.Test_01_Launch_UI_Catalog_HomePage@4bec1f0c]" name="after_Suite" is-config="true" duration-ms="464" started-at="2017-07-23T04:09:11Z" finished-at="2017-07-23T04:09:11Z">
+        <test-method status="PASS" signature="after_Suite()[pri:0, instance:ios.scripts.Test_09_UI_Catalog_Steppers@5649fd9b]" name="after_Suite" is-config="true" duration-ms="447" started-at="2017-07-23T19:32:22Z" finished-at="2017-07-23T19:32:22Z">
           <reporter-output>
             <line>
-              <![CDATA[07_23_2017_04_09_11_584 ***** Suite Execution Completed *****]]>
+              <![CDATA[07_23_2017_07_32_22_684 ***** Suite Execution Completed *****]]>
             </line>
           </reporter-output>
         </test-method> <!-- after_Suite -->
-      </class> <!-- ios.scripts.Test_01_Launch_UI_Catalog_HomePage -->
+      </class> <!-- ios.scripts.Test_09_UI_Catalog_Steppers -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

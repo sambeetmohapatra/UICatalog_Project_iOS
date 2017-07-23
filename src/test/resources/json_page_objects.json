@@ -78,5 +78,16 @@
 	"Default_Slider_xpath":"//XCUIElementTypeCell[1]/XCUIElementTypeSlider",
 	"Tinted_Slider_xpath":"//XCUIElementTypeCell[2]/XCUIElementTypeSlider",
 	"Custom_Slider_xpath":"//XCUIElementTypeCell[3]/XCUIElementTypeSlider",
+	"_COMMENT_9":"****STEPPERS****",
+	"Custom_label_xpath":"//XCUIElementTypeOther[@name='CUSTOM']",
+	"Default_Decrement_xpath":"//XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Decrement']",
+	"Default_Increment_xpath":"//XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[@name='Increment']",
+	"Default_Number_xpath":"//XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeStaticText",
+	"Tinted_Decrement_xpath":"//XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Decrement']",
+	"Tinted_Increment_xpath":"//XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton[@name='Increment']",
+	"Tinted_Number_xpath":"//XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeStaticText",
+	"Custom_Decrement_xpath":"//XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Decrement']",
+	"Custom_Increment_xpath":"//XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton[@name='Increment']",
+	"Custom_Number_xpath":"//XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeStaticText",
 	"":""
 }
