@@ -47,6 +47,7 @@ public class Base_Class extends Utility {
 	@BeforeMethod
 	public void before_Method() throws Exception{
 			logger=report.startTest(this.getClass().getSimpleName());
+			Reporter.log(this.getClass().getName().trim().toUpperCase(),true);
 			Launch_App();
 	}
 	
