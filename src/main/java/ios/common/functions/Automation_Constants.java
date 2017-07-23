@@ -13,6 +13,7 @@ public interface Automation_Constants {
 	String NAME_ATTRIBUTE="name";
 	String LABEL_ATTRIBUTE="label";
 
+	String APPIUM_SERVER_URL="http://127.0.0.1:4723/wd/hub";
 
 	String TEST_DATA_FILE="./src/test/resources/TestData.xls";
 	String REPORT_PATH="/Users/sambeetmohapatra/Desktop/Sambeet_Work/UI_Catalog_Project/Reports/";

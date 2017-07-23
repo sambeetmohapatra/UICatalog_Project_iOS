@@ -68,15 +68,16 @@ public class Base_Class extends Utility {
 		driver.quit();
 		Reporter.log(getFormatedDateTime()+" App Closed ",true);
 		
-		logger.log(LogStatus.INFO, "End of Test Case : " +result.getMethod().getMethodName().toUpperCase()+" ; Closed Application");
+		logger.log(LogStatus.PASS, " End of Test Case : " +result.getMethod().getMethodName().toUpperCase()+" ; Closed Application");
 		Reporter.log(getFormatedDateTime()+" Execution Complete : " +result.getMethod().getMethodName().toUpperCase(),true);
-		//End of Test Case - Method
+		//End of Test Case - Method - Extent Reports
 		report.endTest(logger);
 	}
 
 	@AfterSuite
 	public void after_Suite(){
 		//stopServer();
+		// Add the Extent Reports
 		report.flush();
 		report.close();
 		Reporter.log(getFormatedDateTime()+" ***** Suite Execution Completed *****",true);
@@ -90,7 +91,7 @@ public class Base_Class extends Utility {
 	//Take Screenshot and add it to Extent Reports also
 	public void takeScreenshot(){
 		Wait(1);
-		Reporter.log(getFormatedDateTime()+" - Capturing Screenshot and Adding to Extent Reports",true);
+		Reporter.log(getFormatedDateTime()+" Capturing Screenshot and Adding to Extent Reports",true);
         logger.log(LogStatus.INFO, logger.addScreenCapture( new Screenshot().capture(this.getClass().getName())));
 	}
 	//Start Appium Server Method -Mac
@@ -160,8 +161,8 @@ public class Base_Class extends Utility {
 				
 				Reporter.log(getFormatedDateTime()+" Launch iOSDriver : "+caps,true);
 				
-				driver = new IOSDriver<WebElement>(new URL("http://127.0.0.1:4723/wd/hub"), caps);
-				driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+				driver = new IOSDriver<WebElement>(new URL(APPIUM_SERVER_URL), caps);
+				driver.manage().timeouts().implicitlyWait(TimeOut, TimeUnit.SECONDS);
 		}
 		catch (Exception e) {
 			Reporter.log("Please Start/Restart Appium Server , Not Starting it Programatically",true);

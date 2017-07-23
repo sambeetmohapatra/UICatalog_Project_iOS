@@ -86,10 +86,19 @@ public class Utility implements Automation_Constants{
 		}	
 	
 	public void type(WebElement wb,String values){
+		while(true) {
+			try {
 		waitForElement(wb);
 		wb.clear();
 		wb.sendKeys(values);
 		Reporter.log(getFormatedDateTime()+" - "+"Send Keys :  "+wb,true);
+		break;
+			}
+			catch(Exception e) {
+				driver.hideKeyboard();
+			}
+			
+			}
 	}
 	
 	public String showText(WebElement wb){
