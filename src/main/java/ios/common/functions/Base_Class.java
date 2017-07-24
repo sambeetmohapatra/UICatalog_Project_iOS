@@ -41,14 +41,14 @@ public class Base_Class extends Utility {
 		report = new ExtentReports(REPORT_PATH+getFormatedDateTime()+".html");
 		report.loadConfig(new File(EXTENT_CONFIG_FILE));
 	//	startServer();
-		
+		Launch_App();
 	}
 	
 	@BeforeMethod
 	public void before_Method() throws Exception{
 			logger=report.startTest(this.getClass().getSimpleName());
 			Reporter.log(this.getClass().getName().trim().toUpperCase(),true);
-			Launch_App();
+			
 	}
 	
 	@AfterMethod
@@ -65,8 +65,7 @@ public class Base_Class extends Utility {
 			System.out.println(e);
 		}
 		//Close App
-		driver.quit();
-		Reporter.log(getFormatedDateTime()+" App Closed ",true);
+		
 		
 		logger.log(LogStatus.PASS, " End of Test Case : " +result.getMethod().getMethodName().toUpperCase()+" ; Closed Application");
 		Reporter.log(getFormatedDateTime()+" Execution Complete : " +result.getMethod().getMethodName().toUpperCase(),true);
@@ -76,6 +75,9 @@ public class Base_Class extends Utility {
 
 	@AfterSuite
 	public void after_Suite(){
+		driver.quit();
+		Reporter.log(getFormatedDateTime()+" App Closed ",true);
+		
 		//stopServer();
 		// Add the Extent Reports
 		report.flush();

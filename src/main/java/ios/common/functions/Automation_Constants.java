@@ -12,6 +12,7 @@ public interface Automation_Constants {
 	int TimeOut =20; // Waiting period Timeout
 	String NAME_ATTRIBUTE="name";
 	String LABEL_ATTRIBUTE="label";
+	String VALUE_ATTRIBUTE="value";
 
 	String APPIUM_SERVER_URL="http://127.0.0.1:4723/wd/hub";
 

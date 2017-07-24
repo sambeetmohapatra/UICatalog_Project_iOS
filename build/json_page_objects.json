@@ -101,5 +101,17 @@
 	"Secure_TextField_xpath":"//XCUIElementTypeCell[3]/XCUIElementTypeSecureTextField",
 	"Specific_TextField_xpath":"//XCUIElementTypeCell[4]/XCUIElementTypeTextField",
 	"Custom_TextField_xpath":"//XCUIElementTypeCell[5]/XCUIElementTypeTextField",
-	"":""
+	"_COMMENT_12":"****TEXT FIELDS****",
+	"Text_View_TextField_xpath":"//XCUIElementTypeOther/XCUIElementTypeTextView",
+	"_COMMENT_13":"****SEARCH BARS****",
+	"Search_Bar_Default_xpath":"//XCUIElementTypeStaticText[@label='Default']",
+	"Search_Bar_Custom_xpath":"//XCUIElementTypeStaticText[@label='Custom']",
+	"Default_SearchField_xpath":"//XCUIElementTypeSearchField",
+	"Default_Search_Cancel_Btn_id":"Cancel",
+	"Default_Search_ScopeBar_xpath":"//XCUIElementTypeSegmentedControl[@name='scopeBar']",
+	"Default_Search_ScopeBar_One_id":"Scope One",
+	"Default_Search_ScopeBar_Two_id":"Scope Two",
+	"Custom_Search_xpath":"//XCUIElementTypeSearchField/XCUIElementTypeButton[@name='Bookmarks']/..",
+	"Custom_Search_BookMark_xpath":"//XCUIElementTypeSearchField/XCUIElementTypeButton[@name='Bookmarks']",
+	"":"",
 }
