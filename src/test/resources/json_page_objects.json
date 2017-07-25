@@ -70,7 +70,7 @@
 	"Custom_Segments_Done_Button_xpath":"//XCUIElementTypeCell[3]//XCUIElementTypeButton[@name='Done']",
 	"Custom_Segments_Search_Button_xpath":"//XCUIElementTypeCell[3]//XCUIElementTypeButton[@name='Search']",
 	"Custom_Segments_Settings_Button_xpath":"//XCUIElementTypeCell[3]//XCUIElementTypeButton[@name='Settings']",
-	"Custom_Background_label_xpath":"//XCUIElementTypeOther[@name='CUSTOM BACKGROUND']",
+	"Custom_Background_label_xpath":"//XCUIElementTypeOther[@name='CUSTOM SEGMENTS']/../following-sibling::XCUIElementTypeOther[1]",
 	"Custom_Background_Check_Button_xpath":"//XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Check']",
 	"Custom_Background_Search_Button_xpath":"//XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Search']",
 	"Custom_Background_Tools_Button_xpath":"//XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Tools']",

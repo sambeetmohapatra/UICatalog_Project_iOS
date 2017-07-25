@@ -2,225 +2,268 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[07_26_2017_04_09_23_999 ***** Suite Execution Started *****]]>
+      <![CDATA[07_26_2017_04_46_10_783 ***** Suite Execution Started *****]]>
     </line>
     <line>
-      <![CDATA[07_26_2017_04_09_24_295 Set Desired Capabilities - iOS : iPad]]>
+      <![CDATA[07_26_2017_04_46_11_032 Set Desired Capabilities - iOS : iPhone]]>
     </line>
     <line>
-      <![CDATA[07_26_2017_04_09_24_299 Launch iOSDriver : Capabilities [{noReset=true, platformVersion=10.3, bundleId=com.example.apple-samplecode.UICatalogN, platformName=iOS, deviceName=iPad Air 2}]]]>
+      <![CDATA[07_26_2017_04_46_11_034 Launch iOSDriver : Capabilities [{noReset=true, platformVersion=10.3, bundleId=com.example.apple-samplecode.UICatalog, platformName=iOS, deviceName=iPhone Simulator}]]]>
     </line>
     <line>
-      <![CDATA[07_26_2017_04_09_38_031 Rotate iPad to Landscape view for the test]]>
+      <![CDATA[IOS.SCRIPTS.TEST_07_UI_CATALOG_SEGMENTEDCONTROLS]]>
     </line>
     <line>
-      <![CDATA[07_26_2017_04_09_38_794 -  Changed Orientation : Landscape]]>
+      <![CDATA[07_26_2017_04_46_24_392 - Swiping Vertically Down ]]>
     </line>
     <line>
-      <![CDATA[IOS.SCRIPTS.TEST_06_UI_CATALOG_DATEPICKER]]>
+      <![CDATA[07_26_2017_04_46_28_495 -  Waiting For Element : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> accessibility id: Segmented Controls]]]>
     </line>
     <line>
-      <![CDATA[07_26_2017_04_09_40_635 -  Waiting For Element : [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> accessibility id: Date Picker]]]>
+      <![CDATA[07_26_2017_04_46_28_752 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> accessibility id: Segmented Controls]]]>
     </line>
     <line>
-      <![CDATA[07_26_2017_04_09_40_984 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> accessibility id: Date Picker]]]>
+      <![CDATA[07_26_2017_04_46_29_001 -  Waiting For Element : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> accessibility id: Segmented Controls]]]>
     </line>
     <line>
-      <![CDATA[07_26_2017_04_09_41_332 -  Waiting For Element : [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> accessibility id: Date Picker]]]>
+      <![CDATA[07_26_2017_04_46_29_246 - Fetching the text : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> accessibility id: Segmented Controls]]]>
     </line>
     <line>
-      <![CDATA[07_26_2017_04_09_41_782 - Fetching the text : [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> accessibility id: Date Picker]]]>
+      <![CDATA[07_26_2017_04_46_29_482 -  Waiting For Element : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> accessibility id: Segmented Controls]]]>
     </line>
     <line>
-      <![CDATA[07_26_2017_04_09_42_132 -  Waiting For Element : [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> accessibility id: Date Picker]]]>
+      <![CDATA[07_26_2017_04_46_30_439 - Clicked :  [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> accessibility id: Segmented Controls]]]>
     </line>
     <line>
-      <![CDATA[07_26_2017_04_09_43_252 - Clicked :  [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> accessibility id: Date Picker]]]>
+      <![CDATA[07_26_2017_04_46_30_440 - Waiting for : 1 second(s)]]>
     </line>
     <line>
-      <![CDATA[07_26_2017_04_09_43_252 - Waiting for : 1 second(s)]]>
+      <![CDATA[07_26_2017_04_46_31_443 Capturing Screenshot and Adding to Extent Reports]]>
     </line>
     <line>
-      <![CDATA[07_26_2017_04_09_44_257 Capturing Screenshot and Adding to Extent Reports]]>
+      <![CDATA[07_26_2017_04_46_31_619 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> accessibility id: Segmented Controls]]]>
     </line>
     <line>
-      <![CDATA[07_26_2017_04_09_44_716 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> accessibility id: Date Picker]]]>
+      <![CDATA[07_26_2017_04_46_32_052 - Swiping Vertically Down ]]>
     </line>
     <line>
-      <![CDATA[07_26_2017_04_09_48_903 -  Waiting For Element : [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> xpath: //XCUIElementTypeStaticText[contains(@name,'2017')]]]]>
+      <![CDATA[07_26_2017_04_46_37_418 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeOther[@name='CUSTOM SEGMENTS']/../following-sibling::XCUIElementTypeOther[1]]]]>
     </line>
     <line>
-      <![CDATA[07_26_2017_04_09_49_253 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> xpath: //XCUIElementTypeStaticText[contains(@name,'2017')]]]]>
+      <![CDATA[07_26_2017_04_46_38_847 -  Waiting For Element : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Check']]]]>
     </line>
     <line>
-      <![CDATA[07_26_2017_04_09_52_911 -  Waiting For Elements : [[[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> xpath: //XCUIElementTypeDatePicker/XCUIElementTypeOther/XCUIElementTypePickerWheel], [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> xpath: //XCUIElementTypeDatePicker/XCUIElementTypeOther/XCUIElementTypePickerWheel], [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> xpath: //XCUIElementTypeDatePicker/XCUIElementTypeOther/XCUIElementTypePickerWheel], [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> xpath: //XCUIElementTypeDatePicker/XCUIElementTypeOther/XCUIElementTypePickerWheel]]]]>
+      <![CDATA[07_26_2017_04_46_39_083 -  Waiting For Element : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Check']]]]>
     </line>
     <line>
-      <![CDATA[07_26_2017_04_09_54_754 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> xpath: //XCUIElementTypeDatePicker/XCUIElementTypeOther/XCUIElementTypePickerWheel]]]>
+      <![CDATA[07_26_2017_04_46_39_313 - Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Check']]]]>
     </line>
     <line>
-      <![CDATA[07_26_2017_04_09_55_136 - Swiping ]]>
+      <![CDATA[07_26_2017_04_46_39_524 -  Waiting For Element : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Check']]]]>
     </line>
     <line>
-      <![CDATA[07_26_2017_04_09_58_843 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> xpath: //XCUIElementTypeDatePicker/XCUIElementTypeOther/XCUIElementTypePickerWheel]]]>
+      <![CDATA[07_26_2017_04_46_40_364 - Clicked :  [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Check']]]]>
     </line>
     <line>
-      <![CDATA[07_26_2017_04_09_59_211 - Swiping ]]>
+      <![CDATA[07_26_2017_04_46_41_494 -  Waiting For Element : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Search']]]]>
     </line>
     <line>
-      <![CDATA[07_26_2017_04_10_02_696 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> xpath: //XCUIElementTypeDatePicker/XCUIElementTypeOther/XCUIElementTypePickerWheel]]]>
+      <![CDATA[07_26_2017_04_46_41_741 -  Waiting For Element : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Search']]]]>
     </line>
     <line>
-      <![CDATA[07_26_2017_04_10_03_057 - Swiping ]]>
+      <![CDATA[07_26_2017_04_46_41_972 - Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Search']]]]>
     </line>
     <line>
-      <![CDATA[07_26_2017_04_10_06_633 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> xpath: //XCUIElementTypeDatePicker/XCUIElementTypeOther/XCUIElementTypePickerWheel]]]>
+      <![CDATA[07_26_2017_04_46_42_202 -  Waiting For Element : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Search']]]]>
     </line>
     <line>
-      <![CDATA[07_26_2017_04_10_06_986 - Swiping ]]>
+      <![CDATA[07_26_2017_04_46_43_051 - Clicked :  [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Search']]]]>
     </line>
     <line>
-      <![CDATA[07_26_2017_04_10_10_832 - Waiting for : 1 second(s)]]>
+      <![CDATA[07_26_2017_04_46_44_292 -  Waiting For Element : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Tools']]]]>
     </line>
     <line>
-      <![CDATA[07_26_2017_04_10_11_837 Capturing Screenshot and Adding to Extent Reports]]>
+      <![CDATA[07_26_2017_04_46_44_537 -  Waiting For Element : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Tools']]]]>
     </line>
     <line>
-      <![CDATA[07_26_2017_04_10_35_491***************** Execution Complete : TEST_06_UI_CATALOG_DATEPICKER ******************]]>
+      <![CDATA[07_26_2017_04_46_44_805 - Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Tools']]]]>
     </line>
     <line>
-      <![CDATA[07_26_2017_04_10_36_292 App Closed ]]>
+      <![CDATA[07_26_2017_04_46_45_051 -  Waiting For Element : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Tools']]]]>
     </line>
     <line>
-      <![CDATA[07_26_2017_04_10_36_897 ***** Suite Execution Completed *****]]>
+      <![CDATA[07_26_2017_04_46_45_965 - Clicked :  [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Tools']]]]>
+    </line>
+    <line>
+      <![CDATA[07_26_2017_04_46_45_966 - Waiting for : 1 second(s)]]>
+    </line>
+    <line>
+      <![CDATA[07_26_2017_04_46_46_967 Capturing Screenshot and Adding to Extent Reports]]>
+    </line>
+    <line>
+      <![CDATA[07_26_2017_04_46_48_563 - Go Back]]>
+    </line>
+    <line>
+      <![CDATA[07_26_2017_04_46_48_566***************** Execution Complete : TEST_07_UI_CATALOG_SEGMENTEDCONTROLS ******************]]>
+    </line>
+    <line>
+      <![CDATA[07_26_2017_04_46_49_128 App Closed ]]>
+    </line>
+    <line>
+      <![CDATA[07_26_2017_04_46_49_695 ***** Suite Execution Completed *****]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="56701" started-at="2017-07-25T22:39:38Z" finished-at="2017-07-25T22:40:35Z">
+  <suite name="Default suite" duration-ms="24603" started-at="2017-07-25T23:16:23Z" finished-at="2017-07-25T23:16:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="56701" started-at="2017-07-25T22:39:38Z" finished-at="2017-07-25T22:40:35Z">
-      <class name="ios.scripts.Test_06_UI_Catalog_DatePicker">
-        <test-method status="PASS" signature="before_Suite()[pri:0, instance:ios.scripts.Test_06_UI_Catalog_DatePicker@4bec1f0c]" name="before_Suite" is-config="true" duration-ms="14806" started-at="2017-07-26T04:09:23Z" finished-at="2017-07-26T04:09:38Z">
+    <test name="Default test" duration-ms="24603" started-at="2017-07-25T23:16:23Z" finished-at="2017-07-25T23:16:48Z">
+      <class name="ios.scripts.Test_07_UI_Catalog_SegmentedControls">
+        <test-method status="PASS" signature="before_Suite()[pri:0, instance:ios.scripts.Test_07_UI_Catalog_SegmentedControls@5649fd9b]" name="before_Suite" is-config="true" duration-ms="13190" started-at="2017-07-26T04:46:10Z" finished-at="2017-07-26T04:46:23Z">
           <reporter-output>
             <line>
-              <![CDATA[07_26_2017_04_09_23_999 ***** Suite Execution Started *****]]>
+              <![CDATA[07_26_2017_04_46_10_783 ***** Suite Execution Started *****]]>
             </line>
             <line>
-              <![CDATA[07_26_2017_04_09_24_295 Set Desired Capabilities - iOS : iPad]]>
+              <![CDATA[07_26_2017_04_46_11_032 Set Desired Capabilities - iOS : iPhone]]>
             </line>
             <line>
-              <![CDATA[07_26_2017_04_09_24_299 Launch iOSDriver : Capabilities [{noReset=true, platformVersion=10.3, bundleId=com.example.apple-samplecode.UICatalogN, platformName=iOS, deviceName=iPad Air 2}]]]>
-            </line>
-            <line>
-              <![CDATA[07_26_2017_04_09_38_031 Rotate iPad to Landscape view for the test]]>
-            </line>
-            <line>
-              <![CDATA[07_26_2017_04_09_38_794 -  Changed Orientation : Landscape]]>
+              <![CDATA[07_26_2017_04_46_11_034 Launch iOSDriver : Capabilities [{noReset=true, platformVersion=10.3, bundleId=com.example.apple-samplecode.UICatalog, platformName=iOS, deviceName=iPhone Simulator}]]]>
             </line>
           </reporter-output>
         </test-method> <!-- before_Suite -->
-        <test-method status="PASS" signature="before_Method()[pri:0, instance:ios.scripts.Test_06_UI_Catalog_DatePicker@4bec1f0c]" name="before_Method" is-config="true" duration-ms="3" started-at="2017-07-26T04:09:38Z" finished-at="2017-07-26T04:09:38Z">
+        <test-method status="PASS" signature="before_Method()[pri:0, instance:ios.scripts.Test_07_UI_Catalog_SegmentedControls@5649fd9b]" name="before_Method" is-config="true" duration-ms="5" started-at="2017-07-26T04:46:24Z" finished-at="2017-07-26T04:46:24Z">
           <reporter-output>
             <line>
-              <![CDATA[IOS.SCRIPTS.TEST_06_UI_CATALOG_DATEPICKER]]>
+              <![CDATA[IOS.SCRIPTS.TEST_07_UI_CATALOG_SEGMENTEDCONTROLS]]>
             </line>
           </reporter-output>
         </test-method> <!-- before_Method -->
-        <test-method status="PASS" signature="test_06_UI_Catalog_DatePicker()[pri:0, instance:ios.scripts.Test_06_UI_Catalog_DatePicker@4bec1f0c]" name="test_06_UI_Catalog_DatePicker" duration-ms="56675" started-at="2017-07-26T04:09:38Z" finished-at="2017-07-26T04:10:35Z">
-          <reporter-output>
-            <line>
-              <![CDATA[07_26_2017_04_09_40_635 -  Waiting For Element : [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> accessibility id: Date Picker]]]>
-            </line>
-            <line>
-              <![CDATA[07_26_2017_04_09_40_984 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> accessibility id: Date Picker]]]>
-            </line>
-            <line>
-              <![CDATA[07_26_2017_04_09_41_332 -  Waiting For Element : [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> accessibility id: Date Picker]]]>
-            </line>
-            <line>
-              <![CDATA[07_26_2017_04_09_41_782 - Fetching the text : [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> accessibility id: Date Picker]]]>
-            </line>
-            <line>
-              <![CDATA[07_26_2017_04_09_42_132 -  Waiting For Element : [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> accessibility id: Date Picker]]]>
-            </line>
-            <line>
-              <![CDATA[07_26_2017_04_09_43_252 - Clicked :  [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> accessibility id: Date Picker]]]>
-            </line>
-            <line>
-              <![CDATA[07_26_2017_04_09_43_252 - Waiting for : 1 second(s)]]>
-            </line>
-            <line>
-              <![CDATA[07_26_2017_04_09_44_257 Capturing Screenshot and Adding to Extent Reports]]>
-            </line>
-            <line>
-              <![CDATA[07_26_2017_04_09_44_716 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> accessibility id: Date Picker]]]>
-            </line>
-            <line>
-              <![CDATA[07_26_2017_04_09_48_903 -  Waiting For Element : [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> xpath: //XCUIElementTypeStaticText[contains(@name,'2017')]]]]>
-            </line>
-            <line>
-              <![CDATA[07_26_2017_04_09_49_253 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> xpath: //XCUIElementTypeStaticText[contains(@name,'2017')]]]]>
-            </line>
-            <line>
-              <![CDATA[07_26_2017_04_09_52_911 -  Waiting For Elements : [[[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> xpath: //XCUIElementTypeDatePicker/XCUIElementTypeOther/XCUIElementTypePickerWheel], [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> xpath: //XCUIElementTypeDatePicker/XCUIElementTypeOther/XCUIElementTypePickerWheel], [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> xpath: //XCUIElementTypeDatePicker/XCUIElementTypeOther/XCUIElementTypePickerWheel], [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> xpath: //XCUIElementTypeDatePicker/XCUIElementTypeOther/XCUIElementTypePickerWheel]]]]>
-            </line>
-            <line>
-              <![CDATA[07_26_2017_04_09_54_754 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> xpath: //XCUIElementTypeDatePicker/XCUIElementTypeOther/XCUIElementTypePickerWheel]]]>
-            </line>
-            <line>
-              <![CDATA[07_26_2017_04_09_55_136 - Swiping ]]>
-            </line>
-            <line>
-              <![CDATA[07_26_2017_04_09_58_843 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> xpath: //XCUIElementTypeDatePicker/XCUIElementTypeOther/XCUIElementTypePickerWheel]]]>
-            </line>
-            <line>
-              <![CDATA[07_26_2017_04_09_59_211 - Swiping ]]>
-            </line>
-            <line>
-              <![CDATA[07_26_2017_04_10_02_696 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> xpath: //XCUIElementTypeDatePicker/XCUIElementTypeOther/XCUIElementTypePickerWheel]]]>
-            </line>
-            <line>
-              <![CDATA[07_26_2017_04_10_03_057 - Swiping ]]>
-            </line>
-            <line>
-              <![CDATA[07_26_2017_04_10_06_633 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> xpath: //XCUIElementTypeDatePicker/XCUIElementTypeOther/XCUIElementTypePickerWheel]]]>
-            </line>
-            <line>
-              <![CDATA[07_26_2017_04_10_06_986 - Swiping ]]>
-            </line>
-            <line>
-              <![CDATA[07_26_2017_04_10_10_832 - Waiting for : 1 second(s)]]>
-            </line>
-            <line>
-              <![CDATA[07_26_2017_04_10_11_837 Capturing Screenshot and Adding to Extent Reports]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test_06_UI_Catalog_DatePicker -->
-        <test-method status="PASS" signature="after_Method(org.testng.ITestResult)[pri:0, instance:ios.scripts.Test_06_UI_Catalog_DatePicker@4bec1f0c]" name="after_Method" is-config="true" duration-ms="4" started-at="2017-07-26T04:10:35Z" finished-at="2017-07-26T04:10:35Z">
+        <test-method status="PASS" signature="test_07_UI_Catalog_SegmentedControls(java.util.Map)[pri:0, instance:ios.scripts.Test_07_UI_Catalog_SegmentedControls@5649fd9b]" name="test_07_UI_Catalog_SegmentedControls" duration-ms="24386" started-at="2017-07-26T04:46:24Z" data-provider="dp_Test_07_UI_Catalog_SegmentedControls" finished-at="2017-07-26T04:46:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test_06_UI_Catalog_DatePicker status=SUCCESS method=Test_06_UI_Catalog_DatePicker.test_06_UI_Catalog_DatePicker()[pri:0, instance:ios.scripts.Test_06_UI_Catalog_DatePicker@4bec1f0c] output=07_26_2017_04_09_40_635 -  Waiting For Element : [[IOSDriver:  on MAC (182b2c7e-6163-4d66-a7bc-3b7cdc6ca419)] -> accessibility id: Date Picker]]]]>
+                <![CDATA[{Script_name=Test_07_UI_Catalog_SegmentedControls, TestData_2=TINTED, TestData_1=DEFAULT, TestData_10=, TestData_11=, TestData_12=, TestData_13=, TestData_14=, TestData_4=Search, TestData_3=Check, TestData_6=CUSTOM SEGMENTS, TestData_5=Tools, TestData_8=Search, TestData_7=Done, TestData_9=Settings}]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[07_26_2017_04_10_35_491***************** Execution Complete : TEST_06_UI_CATALOG_DATEPICKER ******************]]>
+              <![CDATA[07_26_2017_04_46_24_392 - Swiping Vertically Down ]]>
+            </line>
+            <line>
+              <![CDATA[07_26_2017_04_46_28_495 -  Waiting For Element : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> accessibility id: Segmented Controls]]]>
+            </line>
+            <line>
+              <![CDATA[07_26_2017_04_46_28_752 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> accessibility id: Segmented Controls]]]>
+            </line>
+            <line>
+              <![CDATA[07_26_2017_04_46_29_001 -  Waiting For Element : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> accessibility id: Segmented Controls]]]>
+            </line>
+            <line>
+              <![CDATA[07_26_2017_04_46_29_246 - Fetching the text : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> accessibility id: Segmented Controls]]]>
+            </line>
+            <line>
+              <![CDATA[07_26_2017_04_46_29_482 -  Waiting For Element : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> accessibility id: Segmented Controls]]]>
+            </line>
+            <line>
+              <![CDATA[07_26_2017_04_46_30_439 - Clicked :  [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> accessibility id: Segmented Controls]]]>
+            </line>
+            <line>
+              <![CDATA[07_26_2017_04_46_30_440 - Waiting for : 1 second(s)]]>
+            </line>
+            <line>
+              <![CDATA[07_26_2017_04_46_31_443 Capturing Screenshot and Adding to Extent Reports]]>
+            </line>
+            <line>
+              <![CDATA[07_26_2017_04_46_31_619 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> accessibility id: Segmented Controls]]]>
+            </line>
+            <line>
+              <![CDATA[07_26_2017_04_46_32_052 - Swiping Vertically Down ]]>
+            </line>
+            <line>
+              <![CDATA[07_26_2017_04_46_37_418 -  Is the Element Displayed on Screen : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeOther[@name='CUSTOM SEGMENTS']/../following-sibling::XCUIElementTypeOther[1]]]]>
+            </line>
+            <line>
+              <![CDATA[07_26_2017_04_46_38_847 -  Waiting For Element : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Check']]]]>
+            </line>
+            <line>
+              <![CDATA[07_26_2017_04_46_39_083 -  Waiting For Element : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Check']]]]>
+            </line>
+            <line>
+              <![CDATA[07_26_2017_04_46_39_313 - Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Check']]]]>
+            </line>
+            <line>
+              <![CDATA[07_26_2017_04_46_39_524 -  Waiting For Element : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Check']]]]>
+            </line>
+            <line>
+              <![CDATA[07_26_2017_04_46_40_364 - Clicked :  [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Check']]]]>
+            </line>
+            <line>
+              <![CDATA[07_26_2017_04_46_41_494 -  Waiting For Element : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Search']]]]>
+            </line>
+            <line>
+              <![CDATA[07_26_2017_04_46_41_741 -  Waiting For Element : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Search']]]]>
+            </line>
+            <line>
+              <![CDATA[07_26_2017_04_46_41_972 - Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Search']]]]>
+            </line>
+            <line>
+              <![CDATA[07_26_2017_04_46_42_202 -  Waiting For Element : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Search']]]]>
+            </line>
+            <line>
+              <![CDATA[07_26_2017_04_46_43_051 - Clicked :  [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Search']]]]>
+            </line>
+            <line>
+              <![CDATA[07_26_2017_04_46_44_292 -  Waiting For Element : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Tools']]]]>
+            </line>
+            <line>
+              <![CDATA[07_26_2017_04_46_44_537 -  Waiting For Element : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Tools']]]]>
+            </line>
+            <line>
+              <![CDATA[07_26_2017_04_46_44_805 - Fetching the Attribute : name - Element : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Tools']]]]>
+            </line>
+            <line>
+              <![CDATA[07_26_2017_04_46_45_051 -  Waiting For Element : [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Tools']]]]>
+            </line>
+            <line>
+              <![CDATA[07_26_2017_04_46_45_965 - Clicked :  [[IOSDriver:  on MAC (b31d4ebe-0193-49df-8dac-0cc6e9615415)] -> xpath: //XCUIElementTypeCell[4]//XCUIElementTypeButton[@name='Tools']]]]>
+            </line>
+            <line>
+              <![CDATA[07_26_2017_04_46_45_966 - Waiting for : 1 second(s)]]>
+            </line>
+            <line>
+              <![CDATA[07_26_2017_04_46_46_967 Capturing Screenshot and Adding to Extent Reports]]>
+            </line>
+            <line>
+              <![CDATA[07_26_2017_04_46_48_563 - Go Back]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_07_UI_Catalog_SegmentedControls -->
+        <test-method status="PASS" signature="after_Method(org.testng.ITestResult)[pri:0, instance:ios.scripts.Test_07_UI_Catalog_SegmentedControls@5649fd9b]" name="after_Method" is-config="true" duration-ms="4" started-at="2017-07-26T04:46:48Z" finished-at="2017-07-26T04:46:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_07_UI_Catalog_SegmentedControls status=SUCCESS method=Test_07_UI_Catalog_SegmentedControls.test_07_UI_Catalog_SegmentedControls(java.util.Map)[pri:0, instance:ios.scripts.Test_07_UI_Catalog_SegmentedControls@5649fd9b] output=07_26_2017_04_46_24_392 - Swiping Vertically Down ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[07_26_2017_04_46_48_566***************** Execution Complete : TEST_07_UI_CATALOG_SEGMENTEDCONTROLS ******************]]>
             </line>
           </reporter-output>
         </test-method> <!-- after_Method -->
-        <test-method status="PASS" signature="after_Suite()[pri:0, instance:ios.scripts.Test_06_UI_Catalog_DatePicker@4bec1f0c]" name="after_Suite" is-config="true" duration-ms="1249" started-at="2017-07-26T04:10:35Z" finished-at="2017-07-26T04:10:36Z">
+        <test-method status="PASS" signature="after_Suite()[pri:0, instance:ios.scripts.Test_07_UI_Catalog_SegmentedControls@5649fd9b]" name="after_Suite" is-config="true" duration-ms="1102" started-at="2017-07-26T04:46:48Z" finished-at="2017-07-26T04:46:49Z">
           <reporter-output>
             <line>
-              <![CDATA[07_26_2017_04_10_36_292 App Closed ]]>
+              <![CDATA[07_26_2017_04_46_49_128 App Closed ]]>
             </line>
             <line>
-              <![CDATA[07_26_2017_04_10_36_897 ***** Suite Execution Completed *****]]>
+              <![CDATA[07_26_2017_04_46_49_695 ***** Suite Execution Completed *****]]>
             </line>
           </reporter-output>
         </test-method> <!-- after_Suite -->
-      </class> <!-- ios.scripts.Test_06_UI_Catalog_DatePicker -->
+      </class> <!-- ios.scripts.Test_07_UI_Catalog_SegmentedControls -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

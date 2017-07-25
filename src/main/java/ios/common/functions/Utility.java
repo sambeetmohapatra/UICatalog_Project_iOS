@@ -136,13 +136,11 @@ public class Utility implements Automation_Constants{
 		  int starty = (int) (size.height * 0.80);
 		  int endy = (int) (size.height * 0.20);
 		  //int startx = size.width / 2;
-		  int startx = (int) (size.width *0.70);
+		  int startx = (int) (size.width * 0.70);
 
 		  if(iOSDevice.equalsIgnoreCase("iPad")) {
-			  startx = (int) (size.width *0.10);
+			  startx = (int) (size.width * 0.10);
 		  }
-		  
-		  
 		  System.out.println("starty = " + starty + " ,endy = " + endy + " , startx = " + startx);
 
 		Reporter.log(getFormatedDateTime()+" - "+"Swiping Vertically Down ",true);
@@ -156,9 +154,9 @@ public class Utility implements Automation_Constants{
 		  Dimension size = driver.manage().window().getSize();
 		  int starty = (int) (size.height * 0.80);
 		  int endy = (int) (size.height * 0.20);
-		  int startx = (int) (size.width *0.70);
+		  int startx = (int) (size.width * 0.70);
 		  if(iOSDevice.equalsIgnoreCase("iPad")) {
-			  startx = (int) (size.width *0.10);
+			  startx = (int) (size.width * 0.10);
 		  }
 		  System.out.println("starty = " + starty + " ,endy = " + endy + " , startx = " + startx);
 

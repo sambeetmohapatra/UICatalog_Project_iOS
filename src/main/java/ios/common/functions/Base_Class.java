@@ -59,6 +59,7 @@ public class Base_Class extends Utility {
 	            String screenShotPath = Screenshot.getErrorCapture("Failed_TC_"+result.getMethod().getMethodName());
 	            logger.log(LogStatus.FAIL, result.getThrowable());
 	            logger.log(LogStatus.FAIL, "Snapshot below: " + logger.addScreenCapture(screenShotPath));
+	            goBack();
 	        }
 		}
 		catch(Exception e){
