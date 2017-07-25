@@ -68,7 +68,7 @@ public class Base_Class extends Utility {
 		//Close App
 		
 		
-		logger.log(LogStatus.PASS, " End of Test Case : " +result.getMethod().getMethodName().toUpperCase()+" ; Closed Application");
+		logger.log(LogStatus.PASS, " End of Test Case :  Device Used : " +iOSDevice+" ; " +result.getMethod().getMethodName().toUpperCase()+" ; Closed Application");
 		Reporter.log(getFormatedDateTime()+" Execution Complete : " +result.getMethod().getMethodName().toUpperCase(),true);
 		//End of Test Case - Method - Extent Reports
 		report.endTest(logger);
@@ -159,8 +159,8 @@ public class Base_Class extends Utility {
 				caps.setCapability("noReset", true);
 		//Set Application Capabilities		
 				
-				caps.setCapability("bundleid",getProperty("bundleid", PROPERTIES_FILE));
-				caps.setCapability("app", getProperty("app_path", PROPERTIES_FILE));
+				caps.setCapability("bundleId",getProperty("bundleId", PROPERTIES_FILE));
+				//caps.setCapability("app", getProperty("app_path", PROPERTIES_FILE));
 		// Launch iOSDriver
 				
 				Reporter.log(getFormatedDateTime()+" Launch iOSDriver : "+caps,true);
@@ -169,7 +169,7 @@ public class Base_Class extends Utility {
 				driver.manage().timeouts().implicitlyWait(TimeOut, TimeUnit.SECONDS);
 		}
 		catch (Exception e) {
-			Reporter.log("Please Start/Restart Appium Server , Not Starting it Programatically",true);
+			Reporter.log("Please Start/Restart Appium Server , Not Starting it Programatically , Please Open iPhone Simulator",true);
 		}
 		}
 	
@@ -186,7 +186,7 @@ public class Base_Class extends Utility {
 					caps.setCapability("noReset", true);
 			//Set Application Capabilities		
 					
-					caps.setCapability("bundleid","com.example.apple-samplecode.UICatalogN");
+					caps.setCapability("bundleId","com.example.apple-samplecode.UICatalogN");
 			// Launch iOSDriver
 					
 					Reporter.log(getFormatedDateTime()+" Launch iOSDriver : "+caps,true);
