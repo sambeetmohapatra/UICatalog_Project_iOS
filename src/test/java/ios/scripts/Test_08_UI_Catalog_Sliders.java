@@ -19,7 +19,7 @@ import ios.pageObjects.Get_WebElement;
 public class Test_08_UI_Catalog_Sliders extends Base_Class {
 
 	@Test(invocationCount=1)
-	public void test_05_UI_Catalog_Sliders() throws Exception{
+	public void test_08_UI_Catalog_Sliders() throws Exception{
 		
 // Initialization
 		

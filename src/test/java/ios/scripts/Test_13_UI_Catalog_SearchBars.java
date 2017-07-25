@@ -24,7 +24,7 @@ import ios.pageObjects.Get_WebElement;
 public class Test_13_UI_Catalog_SearchBars extends Base_Class {
 
 	@Test(dataProvider="dp_Test_13_UI_Catalog_SearchBars")
-	public void test_12_UI_Catalog_TextView(Map<String,String> data) throws Exception{
+	public void test_13_UI_Catalog_TextView(Map<String,String> data) throws Exception{
 		
 // Initialization
 		
