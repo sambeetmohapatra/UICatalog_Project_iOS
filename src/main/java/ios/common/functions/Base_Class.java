@@ -8,7 +8,6 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.ScreenOrientation;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.ITestResult;
@@ -193,7 +192,10 @@ public class Base_Class extends Utility {
 					
 					driver = new IOSDriver<WebElement>(new URL(APPIUM_SERVER_URL), caps);
 					driver.manage().timeouts().implicitlyWait(TimeOut, TimeUnit.SECONDS);
-					driver.rotate(ScreenOrientation.LANDSCAPE);
+					//Rotate iPad to Landscape view for the test
+					Reporter.log(getFormatedDateTime()+" Rotate iPad to Landscape view for the test",true);
+
+					RotateApp("Landscpae");
 			}
 			catch (Exception e) {
 				Reporter.log("Please Open iPad Simulator",true);

@@ -136,6 +136,10 @@ public class Utility implements Automation_Constants{
 		  int starty = (int) (size.height * 0.80);
 		  int endy = (int) (size.height * 0.20);
 		  int startx = size.width / 2;
+		  if(iOSDevice.equalsIgnoreCase("iPad")) {
+			  startx = (int) (size.width *0.10);
+		  }
+		  
 		  
 		  System.out.println("starty = " + starty + " ,endy = " + endy + " , startx = " + startx);
 
@@ -151,7 +155,9 @@ public class Utility implements Automation_Constants{
 		  int starty = (int) (size.height * 0.80);
 		  int endy = (int) (size.height * 0.20);
 		  int startx = size.width / 2;
-		  
+		  if(iOSDevice.equalsIgnoreCase("iPad")) {
+			  startx = (int) (size.width *0.10);
+		  }
 		  System.out.println("starty = " + starty + " ,endy = " + endy + " , startx = " + startx);
 
 		Reporter.log(getFormatedDateTime()+" - "+"Swiping Vertically Up",true);
@@ -179,6 +185,9 @@ public class Utility implements Automation_Constants{
 				  int starty = (int) (size.height * 0.80);
 				  int endy = (int) (size.height * 0.20);
 				  int startx = size.width / 2;
+				  if(iOSDevice.equalsIgnoreCase("iPad")) {
+					  startx = (int) (size.width *0.10);
+				  }
 					Reporter.log(getFormatedDateTime()+" - "+" Swiping Down to Element"+wb,true);
 					driver.swipe(startx, starty, startx, endy, 1000);
 				}
@@ -197,6 +206,9 @@ public class Utility implements Automation_Constants{
 				  int starty = (int) (size.height * 0.20);
 				  int endy = (int) (size.height * 0.80);
 				  int startx = size.width / 2;
+				  if(iOSDevice.equalsIgnoreCase("iPad")) {
+					  startx = (int) (size.width *0.10);
+				  }
 					Reporter.log(getFormatedDateTime()+" - "+" Swiping Up to Element "+wb,true);
 					driver.swipe(startx, starty, startx, endy, 1000);
 				}
@@ -214,6 +226,9 @@ public class Utility implements Automation_Constants{
 				  int starty = (int) (size.height * 0.80);
 				  int endy = (int) (size.height * 0.20);
 				  int startx = size.width / 2;
+				  if(iOSDevice.equalsIgnoreCase("iPad")) {
+					  startx = (int) (size.width *0.10);
+				  }
 					Reporter.log(getFormatedDateTime()+" - "+" Swiping Down to Element"+wb,true);
 					driver.swipe(startx, starty, startx, endy, 1000);
 				}
@@ -231,6 +246,9 @@ public class Utility implements Automation_Constants{
 				  int starty = (int) (size.height * 0.20);
 				  int endy = (int) (size.height * 0.80);
 				  int startx = size.width / 2;
+				  if(iOSDevice.equalsIgnoreCase("iPad")) {
+					  startx = (int) (size.width *0.10);
+				  }
 					Reporter.log(getFormatedDateTime()+" - "+" Swiping Down to Element"+wb,true);
 					driver.swipe(startx, starty, startx, endy, 1000);
 				}
@@ -238,8 +256,24 @@ public class Utility implements Automation_Constants{
 	}		
 	
 	public void goBack(){
+		if(iOSDevice.equalsIgnoreCase("iPhone")) {
 		driver.navigate().back();
 		Reporter.log(getFormatedDateTime()+" - "+"Go Back",true);
+		}
+		else 	if(iOSDevice.equalsIgnoreCase("iPad")) {
+		
+			do {
+			try {
+				driver.findElementByAccessibilityId("Back").click();
+				break;
+			}
+			catch (Exception e) {
+				break;
+			}
+			}while(true);
+		}
+
+			
 		
 	}
 	public void RotateApp(String Orientation){

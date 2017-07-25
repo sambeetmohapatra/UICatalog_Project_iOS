@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [iOSSuite]">
+  <listeners>
+    <listener class-name="ios.common.functions.RetryListener"/>
+  </listeners>
+  <test name="iOSTest(failed)">
+    <classes>
+      <class name="ios.scripts.Test_09_UI_Catalog_Steppers">
+        <methods>
+          <include name="before_Method"/>
+          <include name="test_09_UI_Catalog_Steppers" invocation-numbers="0 0"/>
+          <include name="after_Method"/>
+        </methods>
+      </class> <!-- ios.scripts.Test_09_UI_Catalog_Steppers -->
+      <class name="ios.scripts.Test_05_UI_Catalog_Buttons">
+        <methods>
+          <include name="test_05_UI_Catalog_Buttons"/>
+          <include name="before_Method"/>
+          <include name="after_Method"/>
+        </methods>
+      </class> <!-- ios.scripts.Test_05_UI_Catalog_Buttons -->
+      <class name="ios.scripts.Test_06_UI_Catalog_DatePicker">
+        <methods>
+          <include name="test_06_UI_Catalog_DatePicker"/>
+          <include name="before_Method"/>
+          <include name="after_Method"/>
+        </methods>
+      </class> <!-- ios.scripts.Test_06_UI_Catalog_DatePicker -->
+      <class name="ios.scripts.Test_01_Launch_UI_Catalog_HomePage">
+        <methods>
+          <include name="after_Suite"/>
+          <include name="before_Suite"/>
+          <include name="before_Method"/>
+          <include name="test_01_Launch_UI_Catalog_HomePage"/>
+          <include name="after_Method"/>
+        </methods>
+      </class> <!-- ios.scripts.Test_01_Launch_UI_Catalog_HomePage -->
+      <class name="ios.scripts.Test_11_UI_Catalog_TextFields">
+        <methods>
+          <include name="before_Method"/>
+          <include name="test_11_UI_Catalog_TextFields" invocation-numbers="0 0"/>
+          <include name="after_Method"/>
+        </methods>
+      </class> <!-- ios.scripts.Test_11_UI_Catalog_TextFields -->
+      <class name="ios.scripts.Test_03_UI_Catalog_ActivityIndicators">
+        <methods>
+          <include name="before_Method"/>
+          <include name="test_03_UI_Catalog_ActivityIndicators"/>
+          <include name="after_Method"/>
+        </methods>
+      </class> <!-- ios.scripts.Test_03_UI_Catalog_ActivityIndicators -->
+      <class name="ios.scripts.Test_08_UI_Catalog_Sliders">
+        <methods>
+          <include name="test_05_UI_Catalog_Sliders"/>
+          <include name="before_Method"/>
+          <include name="after_Method"/>
+        </methods>
+      </class> <!-- ios.scripts.Test_08_UI_Catalog_Sliders -->
+      <class name="ios.scripts.Test_13_UI_Catalog_SearchBars">
+        <methods>
+          <include name="test_12_UI_Catalog_TextView" invocation-numbers="0 0"/>
+          <include name="before_Method"/>
+          <include name="after_Method"/>
+        </methods>
+      </class> <!-- ios.scripts.Test_13_UI_Catalog_SearchBars -->
+      <class name="ios.scripts.Test_07_UI_Catalog_SegmentedControls">
+        <methods>
+          <include name="test_07_UI_Catalog_SegmentedControls" invocation-numbers="0 0"/>
+          <include name="before_Method"/>
+          <include name="after_Method"/>
+        </methods>
+      </class> <!-- ios.scripts.Test_07_UI_Catalog_SegmentedControls -->
+      <class name="ios.scripts.Test_12_UI_Catalog_TextView">
+        <methods>
+          <include name="before_Method"/>
+          <include name="test_12_UI_Catalog_TextView"/>
+          <include name="after_Method"/>
+        </methods>
+      </class> <!-- ios.scripts.Test_12_UI_Catalog_TextView -->
+      <class name="ios.scripts.Test_02_UI_Catalog_ActionSheets">
+        <methods>
+          <include name="test_02_UI_Catalog_ActionSheets"/>
+          <include name="before_Method"/>
+          <include name="after_Method"/>
+        </methods>
+      </class> <!-- ios.scripts.Test_02_UI_Catalog_ActionSheets -->
+      <class name="ios.scripts.Test_04_UI_Catalog_AlertViews">
+        <methods>
+          <include name="test_04_UI_Catalog_AlertViews" invocation-numbers="0 0"/>
+          <include name="before_Method"/>
+          <include name="after_Method"/>
+        </methods>
+      </class> <!-- ios.scripts.Test_04_UI_Catalog_AlertViews -->
+      <class name="ios.scripts.Test_10_UI_Catalog_Switches">
+        <methods>
+          <include name="before_Method"/>
+          <include name="test_10_UI_Catalog_Switches" invocation-numbers="0 0"/>
+          <include name="after_Method"/>
+        </methods>
+      </class> <!-- ios.scripts.Test_10_UI_Catalog_Switches -->
+    </classes>
+  </test> <!-- iOSTest(failed) -->
+</suite> <!-- Failed suite [iOSSuite] -->
