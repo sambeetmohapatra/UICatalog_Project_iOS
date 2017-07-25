@@ -49,7 +49,7 @@ public class Test_07_UI_Catalog_SegmentedControls extends Base_Class {
 
 	//DEFAULT
 	logger.log(LogStatus.INFO," Validate The Button Texts : DEFAULT ");
-/*
+
 	String Actual_Default_label = showText(element.getElementByXpath("Default_label_xpath"));
 	String Expected_Default_label= data.get("TestData_1");
 	Assert.assertEquals(Actual_Default_label, Expected_Default_label, "Data Mismacth");
@@ -106,7 +106,7 @@ public class Test_07_UI_Catalog_SegmentedControls extends Base_Class {
 	Assert.assertEquals(showAttribute(Custom_Segments_Tools_Btn, NAME_ATTRIBUTE),data.get("TestData_9"));
 	click(Custom_Segments_Tools_Btn);
 	logger.log(LogStatus.PASS,"Step 3 : Validated The Button Texts : CUSTOM SEGMENTS ");
-*/
+
 	if(iOSDevice.equalsIgnoreCase("iPhone")) {
 	logger.log(LogStatus.INFO, "Swipe Down Vertically");
 	swipeDown_Vertical(1);
