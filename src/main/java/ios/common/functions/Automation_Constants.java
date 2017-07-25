@@ -9,6 +9,10 @@ package ios.common.functions;
  */
 public interface Automation_Constants {
 	
+	String iOSDevice="iPad";
+	//String iOSDevice="iPhone";
+
+	
 	int TimeOut =20; // Waiting period Timeout
 	String NAME_ATTRIBUTE="name";
 	String LABEL_ATTRIBUTE="label";

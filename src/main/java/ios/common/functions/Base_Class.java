@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.ScreenOrientation;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.ITestResult;
@@ -146,9 +147,10 @@ public class Base_Class extends Utility {
 	
 	//Launch Application on iPhone 6 Simulator - iOS 10.3
 	public void Launch_App() throws Exception{
+		if(iOSDevice.equalsIgnoreCase("iPhone")) {
 		try {
 		//Set Desired Capabilities
-		Reporter.log(getFormatedDateTime()+" Set Desired Capabilities - iOS",true);
+		Reporter.log(getFormatedDateTime()+" Set Desired Capabilities - iOS : "+iOSDevice,true);
 				
 			    caps = new DesiredCapabilities();
 				caps.setCapability("platformName", getProperty("platformName", PROPERTIES_FILE));
@@ -169,8 +171,35 @@ public class Base_Class extends Utility {
 		catch (Exception e) {
 			Reporter.log("Please Start/Restart Appium Server , Not Starting it Programatically",true);
 		}
+		}
+	
+	
+	else if(iOSDevice.equalsIgnoreCase("iPad")) {
+		try {
+		//Set Desired Capabilities
+				Reporter.log(getFormatedDateTime()+" Set Desired Capabilities - iOS : " +iOSDevice,true);
+				
+				  caps = new DesiredCapabilities();
+					caps.setCapability("platformName", getProperty("platformName", PROPERTIES_FILE));
+					caps.setCapability("platformVersion", getProperty("platformVersion", PROPERTIES_FILE));
+					caps.setCapability("deviceName","iPad Air 2");
+					caps.setCapability("noReset", true);
+			//Set Application Capabilities		
+					
+					caps.setCapability("bundleid","com.example.apple-samplecode.UICatalogN");
+			// Launch iOSDriver
+					
+					Reporter.log(getFormatedDateTime()+" Launch iOSDriver : "+caps,true);
+					
+					driver = new IOSDriver<WebElement>(new URL(APPIUM_SERVER_URL), caps);
+					driver.manage().timeouts().implicitlyWait(TimeOut, TimeUnit.SECONDS);
+					driver.rotate(ScreenOrientation.LANDSCAPE);
+			}
+			catch (Exception e) {
+				Reporter.log("Please Open iPad Simulator",true);
+			}
+			}
 	}
-	
-	
+
 		
 }
