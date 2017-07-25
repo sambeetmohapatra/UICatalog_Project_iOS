@@ -106,24 +106,25 @@ public class Test_07_UI_Catalog_SegmentedControls extends Base_Class {
 	click(Custom_Segments_Tools_Btn);
 	logger.log(LogStatus.PASS,"Step 3 : Validated The Button Texts : CUSTOM SEGMENTS ");
 
-	
+	if(iOSDevice.equalsIgnoreCase("iPhone")) {
 	logger.log(LogStatus.INFO, "Swipe Down Vertically");
 	swipeDown_Vertical(1);
+	}
 	
 	//CUSTOM BACKGROUND
 	logger.log(LogStatus.INFO," Validate The Button Texts : CUSTOM BACKGROUND");
 
-	Assert.assertTrue(isElementDisplayed(element.getElementByAccessibilityId("Custom_Backgroud_id")));
+	Assert.assertTrue(isElementDisplayed(element.getElementByXpath("Custom_Background_label_xpath")));
 
-	WebElement Custom_Backgroud_Check_Btn = waitForElement(element.getElementByXpath("Custom_Backgroud_Check_Button_xpath"));
+	WebElement Custom_Backgroud_Check_Btn = waitForElement(element.getElementByXpath("Custom_Background_Check_Button_xpath"));
 	Assert.assertEquals(showAttribute(Custom_Backgroud_Check_Btn, NAME_ATTRIBUTE),data.get("TestData_3"));
 	click(Custom_Backgroud_Check_Btn);
 	
-	WebElement Custom_Backgroud_Search_Btn = waitForElement(element.getElementByXpath("Custom_Backgroud_Search_Button_xpath"));
+	WebElement Custom_Backgroud_Search_Btn = waitForElement(element.getElementByXpath("Custom_Background_Search_Button_xpath"));
 	Assert.assertEquals(showAttribute(Custom_Backgroud_Search_Btn, NAME_ATTRIBUTE),data.get("TestData_4"));
 	click(Custom_Backgroud_Search_Btn);
 	
-	WebElement Custom_Backgroud_Tools_Btn = waitForElement(element.getElementByXpath("Custom_Backgroud_Tools_Button_xpath"));
+	WebElement Custom_Backgroud_Tools_Btn = waitForElement(element.getElementByXpath("Custom_Background_Tools_Button_xpath"));
 	Assert.assertEquals(showAttribute(Custom_Backgroud_Tools_Btn, NAME_ATTRIBUTE),data.get("TestData_5"));
 	click(Custom_Backgroud_Tools_Btn);
 	logger.log(LogStatus.PASS," Validate The Button Texts : CUSTOM BACKGROUND");

@@ -39,9 +39,10 @@ public class Test_02_UI_Catalog_ActionSheets extends Base_Class {
 	Assert.assertTrue(isElementDisplayed(waitForElement(element.getElementByAccessibilityId("Action Sheets_id"))));
 	Assert.assertTrue(isElementDisplayed(waitForElement(element.getElementByAccessibilityId("Okay/Cancel_id"))));
 	Assert.assertTrue(isElementDisplayed(waitForElement(element.getElementByAccessibilityId("Other_id"))));
+	if(iOSDevice.equalsIgnoreCase("iPhone")) {
 	Assert.assertTrue(isElementDisplayed(waitForElement(element.getElementByAccessibilityId("Back_id"))));
 	Assert.assertTrue(isElementDisplayed(waitForElement(element.getElementByAccessibilityId("UICatalog_id"))));
-
+	}
 	logger.log(LogStatus.PASS, "Action Sheets Screen is displayed ; Elements are validated");
 	
 
@@ -49,8 +50,10 @@ public class Test_02_UI_Catalog_ActionSheets extends Base_Class {
 	logger.log(LogStatus.INFO,"Step 3 : Click on Okay / Cancel  . Validate Okay And Cancel Buttons are displayed");
 	click(element.getElementByAccessibilityId("Okay/Cancel_id"));
 	Assert.assertTrue(isElementDisplayed(waitForElement(element.getElementByAccessibilityId("OK_id"))));
+	if(iOSDevice.equalsIgnoreCase("iPhone")) { // Changes for iPhone
 	Assert.assertTrue(isElementDisplayed(waitForElement(element.getElementByAccessibilityId("Cancel_id"))));
-	logger.log(LogStatus.PASS, " Validated ; Result : "+showText(element.getElementByAccessibilityId("OK_id")) + showText(element.getElementByAccessibilityId("Cancel_id")));
+	}
+	logger.log(LogStatus.PASS, " Validated ; Result : "+showText(element.getElementByAccessibilityId("OK_id")));
 	takeScreenshot();
 	
 //Step 4 : Click on Ok Button . 
@@ -58,7 +61,7 @@ public class Test_02_UI_Catalog_ActionSheets extends Base_Class {
 	click(element.getElementByAccessibilityId("OK_id"));
 	Assert.assertTrue(isElementDisplayed(waitForElement(element.getElementByAccessibilityId("Action Sheets_id"))));
 	logger.log(LogStatus.PASS, "Action Sheets Screen is displayed");
-
+	if(iOSDevice.equalsIgnoreCase("iPhone")) {
 	
 //Step 5 : Now Click on Cancel Button . 
 	logger.log(LogStatus.INFO, "Step 5 : Now Click on Cancel Button .");
@@ -69,6 +72,7 @@ public class Test_02_UI_Catalog_ActionSheets extends Base_Class {
 	Assert.assertTrue(isElementDisplayed(waitForElement(element.getElementByAccessibilityId("Action Sheets_id"))));
 	logger.log(LogStatus.PASS, "Action Sheets Screen is displayed");
 
+	}
 //Step 6 : Tap on Other. Validate the Options displayed
 	logger.log(LogStatus.INFO, "Step 6 : Tap on Other. Validate the Options displayed");
 	Tap_on_element(element.getElementByAccessibilityId("Other_id"));
@@ -94,12 +98,14 @@ public class Test_02_UI_Catalog_ActionSheets extends Base_Class {
 	goBack();
 	
 //Step 10 : Navigate to Action Sheets Screen again . Click on UI Catalog Back Button
+	if(iOSDevice.equalsIgnoreCase("iPhone")) {
 	logger.log(LogStatus.INFO, "Step 10 : Navigate to Action Sheets Screen again . Click on UI Catalog Back Button");
 	click(Action_Sheets_id);
 	Tap_on_element(element.getElementByAccessibilityId("Back_id"));
 	logger.log(LogStatus.PASS, "Home Screen is displayed");
 
-
+	}
+	
 	}
 
 }

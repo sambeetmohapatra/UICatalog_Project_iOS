@@ -68,7 +68,7 @@ public class Base_Class extends Utility {
 		
 		
 		logger.log(LogStatus.PASS, " End of Test Case :  Device Used : " +iOSDevice+" ; " +result.getMethod().getMethodName().toUpperCase()+" ; Closed Application");
-		Reporter.log(getFormatedDateTime()+" Execution Complete : " +result.getMethod().getMethodName().toUpperCase(),true);
+		Reporter.log(getFormatedDateTime()+"***************** Execution Complete : " +result.getMethod().getMethodName().toUpperCase()+" ******************",true);
 		//End of Test Case - Method - Extent Reports
 		report.endTest(logger);
 	}

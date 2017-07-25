@@ -59,12 +59,13 @@ public class Test_03_UI_Catalog_ActivityIndicators extends Base_Class {
 		goBack();
 		
 //Step 5 : Navigate to Activity Indicators Screen again . Click on UI Catalog Back Button
+		if(iOSDevice.equalsIgnoreCase("iPhone")) {
 		logger.log(LogStatus.INFO, "Step 5 : Navigate to Activity Indicators Screen again. Click on UI Catalog Back Button");
 		click(Activity_Indicators_id);
 		Tap_on_element(element.getElementByAccessibilityId("Back_id"));
 		logger.log(LogStatus.PASS, "Home Screen is displayed");
 
-	 
+		}
 	 
 	}
 	

@@ -45,7 +45,7 @@ public class Test_06_UI_Catalog_DatePicker extends Base_Class {
 	
 //Step 3 : Swipe each of the date pickers :
 	logger.log(LogStatus.INFO,"Step 3 : Swipe each of the date pickers ");
-	
+	if(iOSDevice.equalsIgnoreCase("iPhone")) {
 	List<WebElement> DatePicker_Wheels = waitForElements(element.getElementsByXpath("DatePicker_Wheels_xpath"));
 	Dimension size = driver.manage().window().getSize();
 	  int starty = (int) (size.height * 0.60);
@@ -60,6 +60,23 @@ public class Test_06_UI_Catalog_DatePicker extends Base_Class {
 		logger.log(LogStatus.PASS, "Swiped the Date Picker Succssfully : "+DatePicker_Wheels.get(loopvar));
 	}
 	takeScreenshot();
+	}
+	else if(iOSDevice.equalsIgnoreCase("iPad")) {
+		List<WebElement> DatePicker_Wheels = waitForElements(element.getElementsByXpath("DatePicker_Wheels_xpath"));
+		Dimension size = driver.manage().window().getSize();
+		  int starty = (int) (size.height * 0.60);
+		  int endy = (int) (size.height * 0.40);
+		  //Date Pickers X Coordinates
+		  int startx[] = {(int) (size.width * 0.53),(int) (size.width * 0.65),(int) (size.width * 0.70),(int) (size.width * 0.78)};
+		  
+		for(int loopvar=0;loopvar<DatePicker_Wheels.size();loopvar++) {
+			Assert.assertTrue(isElementDisplayed(DatePicker_Wheels.get(loopvar)));
+			//Swipe each of the date pickers :
+			swipe(startx[loopvar], starty, startx[loopvar], endy, 1000, 1);
+			logger.log(LogStatus.PASS, "Swiped the Date Picker Succssfully : "+DatePicker_Wheels.get(loopvar));
+		}
+		takeScreenshot();
+		}
 
 //Step 4 : Go Back to Home Screen 
 	logger.log(LogStatus.INFO, "Step 4 : Go Back to Home Screen ");

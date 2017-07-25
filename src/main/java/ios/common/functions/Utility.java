@@ -135,7 +135,9 @@ public class Utility implements Automation_Constants{
 		  Dimension size = driver.manage().window().getSize();
 		  int starty = (int) (size.height * 0.80);
 		  int endy = (int) (size.height * 0.20);
-		  int startx = size.width / 2;
+		  //int startx = size.width / 2;
+		  int startx = (int) (size.width *0.70);
+
 		  if(iOSDevice.equalsIgnoreCase("iPad")) {
 			  startx = (int) (size.width *0.10);
 		  }
@@ -154,7 +156,7 @@ public class Utility implements Automation_Constants{
 		  Dimension size = driver.manage().window().getSize();
 		  int starty = (int) (size.height * 0.80);
 		  int endy = (int) (size.height * 0.20);
-		  int startx = size.width / 2;
+		  int startx = (int) (size.width *0.70);
 		  if(iOSDevice.equalsIgnoreCase("iPad")) {
 			  startx = (int) (size.width *0.10);
 		  }
@@ -184,7 +186,7 @@ public class Utility implements Automation_Constants{
 				Dimension size = driver.manage().window().getSize();
 				  int starty = (int) (size.height * 0.80);
 				  int endy = (int) (size.height * 0.20);
-				  int startx = size.width / 2;
+				  int startx = (int) (size.width *0.70);
 				  if(iOSDevice.equalsIgnoreCase("iPad")) {
 					  startx = (int) (size.width *0.10);
 				  }
@@ -205,7 +207,7 @@ public class Utility implements Automation_Constants{
 				Dimension size = driver.manage().window().getSize();
 				  int starty = (int) (size.height * 0.20);
 				  int endy = (int) (size.height * 0.80);
-				  int startx = size.width / 2;
+				  int startx = (int) (size.width *0.70);
 				  if(iOSDevice.equalsIgnoreCase("iPad")) {
 					  startx = (int) (size.width *0.10);
 				  }
@@ -225,7 +227,7 @@ public class Utility implements Automation_Constants{
 				Dimension size = driver.manage().window().getSize();
 				  int starty = (int) (size.height * 0.80);
 				  int endy = (int) (size.height * 0.20);
-				  int startx = size.width / 2;
+				  int startx = (int) (size.width *0.70);
 				  if(iOSDevice.equalsIgnoreCase("iPad")) {
 					  startx = (int) (size.width *0.10);
 				  }
@@ -245,7 +247,7 @@ public class Utility implements Automation_Constants{
 				Dimension size = driver.manage().window().getSize();
 				  int starty = (int) (size.height * 0.20);
 				  int endy = (int) (size.height * 0.80);
-				  int startx = size.width / 2;
+				  int startx = (int) (size.width *0.70);
 				  if(iOSDevice.equalsIgnoreCase("iPad")) {
 					  startx = (int) (size.width *0.10);
 				  }
@@ -280,10 +282,10 @@ public class Utility implements Automation_Constants{
 		
 		if(Orientation.equalsIgnoreCase("Potrait"))
 			driver.rotate(ScreenOrientation.PORTRAIT);
-		else if(Orientation.equalsIgnoreCase("Landscpae"))
+		else if(Orientation.equalsIgnoreCase("Landscape"))
 			driver.rotate(ScreenOrientation.LANDSCAPE);
 		
-		Reporter.log(getFormatedDateTime()+ " - " +" Chnaged Orientation : " +Orientation,true);
+		Reporter.log(getFormatedDateTime()+ " - " +" Changed Orientation : " +Orientation,true);
 	}
 	
 	public void Tap_on_element(WebElement wb){
