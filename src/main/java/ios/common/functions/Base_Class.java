@@ -181,11 +181,11 @@ public class Base_Class extends Utility {
 				  caps = new DesiredCapabilities();
 					caps.setCapability("platformName", getProperty("platformName", PROPERTIES_FILE));
 					caps.setCapability("platformVersion", getProperty("platformVersion", PROPERTIES_FILE));
-					caps.setCapability("deviceName","iPad Air 2");
+					caps.setCapability("deviceName",getProperty("deviceName_iPad", PROPERTIES_FILE));
 					caps.setCapability("noReset", true);
 			//Set Application Capabilities		
 					
-					caps.setCapability("bundleId","com.example.apple-samplecode.UICatalogN");
+					caps.setCapability("bundleId",getProperty("bundleId_iPad", PROPERTIES_FILE));
 			// Launch iOSDriver
 					
 					Reporter.log(getFormatedDateTime()+" Launch iOSDriver : "+caps,true);
@@ -195,7 +195,7 @@ public class Base_Class extends Utility {
 					//Rotate iPad to Landscape view for the test
 					Reporter.log(getFormatedDateTime()+" Rotate iPad to Landscape view for the test",true);
 
-					RotateApp("Landscpae");
+					RotateApp(getProperty("Rotate_iPad", PROPERTIES_FILE));
 			}
 			catch (Exception e) {
 				Reporter.log("Please Open iPad Simulator",true);
