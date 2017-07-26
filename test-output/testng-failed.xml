@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="ios.scripts.Test_14_UI_Catalog_ToolBars">
+      <class name="ios.scripts.Test_15_UI_Catalog_WebView">
         <methods>
+          <include name="test_15_UI_Catalog_WebView" invocation-numbers="0"/>
           <include name="after_Suite"/>
           <include name="before_Suite"/>
           <include name="before_Method"/>
-          <include name="test_14_UI_Catalog_ToolBars" invocation-numbers="0"/>
           <include name="after_Method"/>
         </methods>
-      </class> <!-- ios.scripts.Test_14_UI_Catalog_ToolBars -->
+      </class> <!-- ios.scripts.Test_15_UI_Catalog_WebView -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

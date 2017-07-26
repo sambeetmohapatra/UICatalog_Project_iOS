@@ -28,4 +28,8 @@ public interface Automation_Constants {
 	String PROPERTIES_FILE="./src/test/resources/App_Settings.properties";
 	String PAGE_OBJECTS_JSON_FILE="./src/test/resources/json_page_objects.json";
 	String EXCEL_SHEET_UI_CATALOG="Ui_Catalog_Data";
+	
+	String WebUrl = "http://automationpractice.com/index.php";
+	String Native_App_View ="NATIVE_APP";
+	String Web_App_View = "WEBVIEW";
 }

@@ -292,4 +292,29 @@ public class Utility implements Automation_Constants{
 
 	}
 	
-}
+	public void WebView_ScrollDown(int noOfTimes) {
+		Reporter.log(getFormatedDateTime()+ " - " +" Web View : Scrolling Down : " ,true);
+
+		for(int i=0;i<noOfTimes;i++) {
+			JavascriptExecutor jse = (JavascriptExecutor)driver;
+			jse.executeScript("window.scrollBy(0,200)", "");
+		}
+	}
+	
+	public void WebView_ScrollDown_ToElement(WebElement wb) {
+		Reporter.log(getFormatedDateTime()+ " - " +" Web View : Scrolling Down to element : "+wb ,true);
+
+			JavascriptExecutor jse = (JavascriptExecutor)driver;
+			jse.executeScript("arguments[0].scrollIntoView()",wb);
+		}
+	
+	public void WebView_ScrollToBottom() {
+		Reporter.log(getFormatedDateTime()+ " - " +" Web View : Scrolling To Bottom of Screen : " ,true);
+
+			JavascriptExecutor jse = (JavascriptExecutor)driver;
+			jse.executeScript("window.scrollTo(0, document.body.scrollHeight)");		
+			
+		}
+	}
+	
+	
