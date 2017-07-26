@@ -52,8 +52,8 @@ public class Test_08_UI_Catalog_Sliders extends Base_Class {
 	logger.log(LogStatus.INFO,"Step 3 : Fetch the value attributes of Sliders");
 	String Default_Slider_value = showAttribute(Default_Slider, "value");
 
-	String Tinted_Slider_value =showAttribute(Tinted_Slider, "value");
-	String Custom_Slider_value= showAttribute(Custom_Slider, "value");
+	String Tinted_Slider_value =showAttribute(Tinted_Slider, VALUE_ATTRIBUTE);
+	String Custom_Slider_value= showAttribute(Custom_Slider, VALUE_ATTRIBUTE);
 	logger.log(LogStatus.PASS,"Step 3 : Values fetched are  : " + Default_Slider_value+ " ; "+Tinted_Slider_value+" ; "+
 			Custom_Slider_value);
 

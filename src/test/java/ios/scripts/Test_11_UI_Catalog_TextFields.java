@@ -42,7 +42,7 @@ public class Test_11_UI_Catalog_TextFields extends Base_Class {
 	logger.log(LogStatus.INFO,"Step 2 : Click on Switches label and Validate the Header Displayed");
 	click(Text_Fields_id);
 	Assert.assertTrue(isElementDisplayed(Text_Fields_id));
-	logger.log(LogStatus.PASS," Header is Displayed : " + showAttribute(Text_Fields_id, "name"));
+	logger.log(LogStatus.PASS," Header is Displayed : " + showAttribute(Text_Fields_id, NAME_ATTRIBUTE));
 
 //Step 3 : Validate the Labels for the Switches displayed
 	logger.log(LogStatus.INFO, "Step 3 : Validate the Labels for the Switches displayed");

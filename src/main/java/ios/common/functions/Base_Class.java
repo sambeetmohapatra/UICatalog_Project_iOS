@@ -47,7 +47,7 @@ public class Base_Class extends Utility {
 	@BeforeMethod
 	public void before_Method() throws Exception{
 			logger=report.startTest(this.getClass().getSimpleName());
-			Reporter.log(this.getClass().getName().trim().toUpperCase(),true);
+			Reporter.log("********************* "+this.getClass().getName().trim().toUpperCase()+" *********************",true);
 			
 	}
 	
@@ -83,7 +83,7 @@ public class Base_Class extends Utility {
 		// Add the Extent Reports
 		report.flush();
 		report.close();
-		Reporter.log(getFormatedDateTime()+iOSDevice+" ; " +" ***** Suite Execution Completed *****",true);
+		Reporter.log(getFormatedDateTime()+"*** "+iOSDevice+" ; " +" ***** Suite Execution Completed *****",true);
 	}
 	
 						/*

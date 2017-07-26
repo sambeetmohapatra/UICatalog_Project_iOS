@@ -76,13 +76,13 @@ public class Test_09_UI_Catalog_Steppers extends Base_Class {
 	Assert.assertTrue(isElementDisplayed(waitForElement(element.getElementByXpath("Custom_Number_xpath"))));
 	
 	WebElement Decrement = element.getElementByXpath("Default_Decrement_xpath");
-	Assert.assertEquals(showAttribute(Decrement, "name"), data.get("TestData_4"),"Data Mismatch");
+	Assert.assertEquals(showAttribute(Decrement, NAME_ATTRIBUTE), data.get("TestData_4"),"Data Mismatch");
 	
 	WebElement Increment = element.getElementByXpath("Custom_Increment_xpath");
-	Assert.assertEquals(showAttribute(Increment, "name"), data.get("TestData_5"),"Data Mismatch");
+	Assert.assertEquals(showAttribute(Increment, NAME_ATTRIBUTE), data.get("TestData_5"),"Data Mismatch");
 	
 	logger.log(LogStatus.PASS, "Step 4 : Validated the Increment, Decrement and Number values on the screen ; "
-			+ " Actual : " + showAttribute(Decrement, "name") + " ; " + showAttribute(Increment, "name"));
+			+ " Actual : " + showAttribute(Decrement, NAME_ATTRIBUTE) + " ; " + showAttribute(Increment, NAME_ATTRIBUTE));
 
 
 //Step 5 : Increase and Decrease Value and validate the change in values for Default Label 
@@ -90,33 +90,33 @@ public class Test_09_UI_Catalog_Steppers extends Base_Class {
 	int maxTap = Integer.parseInt(data.get("TestData_6"));
 	int Count_Increment = verify_Count_Increment_Decrement(maxTap, element.getElementByXpath("Default_Increment_xpath"));
 	
-	Assert.assertEquals(Count_Increment+"", showAttribute(waitForElement(element.getElementByXpath("Default_Number_xpath")), "value"));
+	Assert.assertEquals(Count_Increment+"", showAttribute(waitForElement(element.getElementByXpath("Default_Number_xpath")), VALUE_ATTRIBUTE));
 	takeScreenshot();
 
 	int Count_Decrement = verify_Count_Increment_Decrement((maxTap-1), element.getElementByXpath("Default_Decrement_xpath"));
-	Assert.assertEquals((maxTap-Count_Decrement)+"", showAttribute(waitForElement(element.getElementByXpath("Default_Number_xpath")), "value"));
+	Assert.assertEquals((maxTap-Count_Decrement)+"", showAttribute(waitForElement(element.getElementByXpath("Default_Number_xpath")), VALUE_ATTRIBUTE));
 	logger.log(LogStatus.PASS, "Increased and Decreased Values and validated the change in values for Default Label ");
 
 //Step 6 : Increase and Decrease Value and validate the change in values for Tinted Label 
 	logger.log(LogStatus.INFO, "Step 6 : Increase and Decrease Value and validate the change in values for Tinted Label ");
 	int Count_Increment2 = verify_Count_Increment_Decrement(maxTap, element.getElementByXpath("Tinted_Increment_xpath"));
 	
-	Assert.assertEquals(Count_Increment2+"", showAttribute(waitForElement(element.getElementByXpath("Tinted_Number_xpath")), "value"));
+	Assert.assertEquals(Count_Increment2+"", showAttribute(waitForElement(element.getElementByXpath("Tinted_Number_xpath")), VALUE_ATTRIBUTE));
 	takeScreenshot();
 	
 	int Count_Decrement2 = verify_Count_Increment_Decrement((maxTap-1), element.getElementByXpath("Tinted_Decrement_xpath"));
-	Assert.assertEquals((maxTap-Count_Decrement2)+"", showAttribute(waitForElement(element.getElementByXpath("Tinted_Number_xpath")), "value"));
+	Assert.assertEquals((maxTap-Count_Decrement2)+"", showAttribute(waitForElement(element.getElementByXpath("Tinted_Number_xpath")), VALUE_ATTRIBUTE));
 	logger.log(LogStatus.PASS, "Increased and Decreased Values and validated the change in values for Tinted Label ");
 
 //Step 7 : Increase and Decrease Value and validate the change in values for Custom Label 
 	logger.log(LogStatus.INFO, "Step 7 : Increase and Decrease Value and validate the change in values for Custom Label ");
 	int Count_Increment3 = verify_Count_Increment_Decrement(maxTap, element.getElementByXpath("Custom_Increment_xpath"));
 	
-	Assert.assertEquals(Count_Increment3+"", showAttribute(waitForElement(element.getElementByXpath("Custom_Number_xpath")), "value"));
+	Assert.assertEquals(Count_Increment3+"", showAttribute(waitForElement(element.getElementByXpath("Custom_Number_xpath")), VALUE_ATTRIBUTE));
 	takeScreenshot();
 
 	int Count_Decrement3 = verify_Count_Increment_Decrement((maxTap-2), element.getElementByXpath("Custom_Decrement_xpath"));
-	Assert.assertEquals((maxTap-Count_Decrement3)+"", showAttribute(waitForElement(element.getElementByXpath("Custom_Number_xpath")), "value"));
+	Assert.assertEquals((maxTap-Count_Decrement3)+"", showAttribute(waitForElement(element.getElementByXpath("Custom_Number_xpath")), VALUE_ATTRIBUTE));
 	logger.log(LogStatus.PASS, "Increased and Decreased Values and validated the change in values for Custom Label ");
 
 	

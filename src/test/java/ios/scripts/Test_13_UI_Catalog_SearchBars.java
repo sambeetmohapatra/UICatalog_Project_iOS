@@ -41,7 +41,7 @@ public class Test_13_UI_Catalog_SearchBars extends Base_Class {
 	logger.log(LogStatus.INFO,"Step 2 : Click on Search Bars label and Validate the Header Displayed ");
 	click(Search_Bars_id);
 	Assert.assertTrue(isElementDisplayed(Search_Bars_id));
-	logger.log(LogStatus.PASS," Header is Displayed : " + showAttribute(Search_Bars_id, "name"));
+	logger.log(LogStatus.PASS," Header is Displayed : " + showAttribute(Search_Bars_id, NAME_ATTRIBUTE));
 
 //Step 3 : Validate the Fields displayed in Search Bars Screen 
 	logger.log(LogStatus.INFO,"Step 3 : Validate the Fields displayed in Search Bars Screen ");

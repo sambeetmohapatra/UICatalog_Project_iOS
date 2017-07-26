@@ -42,7 +42,7 @@ public class Test_10_UI_Catalog_Switches extends Base_Class {
 	logger.log(LogStatus.INFO,"Step 2 : Click on Switches label and Validate the Header Displayed");
 	click(Switches_id);
 	Assert.assertTrue(isElementDisplayed(Switches_id));
-	logger.log(LogStatus.PASS," Header is Displayed : " + showAttribute(Switches_id, "name"));
+	logger.log(LogStatus.PASS," Header is Displayed : " + showAttribute(Switches_id, NAME_ATTRIBUTE));
 
 //Step 3 : Validate the Labels for the Switches displayed
 	logger.log(LogStatus.INFO, "Step 3 : Validate the Labels for the Switches displayed");
