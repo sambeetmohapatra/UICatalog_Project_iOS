@@ -9,8 +9,8 @@ package ios.common.functions;
  */
 public interface Automation_Constants {
 	
-	String iOSDevice="iPad"; //********  Use iPad Air 2
-	//String iOSDevice="iPhone"; //***** Use iPhone 6
+	//String iOSDevice="iPad"; //********  Use iPad Air 2
+	String iOSDevice="iPhone"; //***** Use iPhone 6
 
 	
 	int TimeOut =20; // Waiting period Timeout
