@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="59.496">
+           time="62.847">
   <properties />
   
   
-            <testcase name="test_10_UI_Catalog_Switches" time="59.496" classname="ios.scripts.Test_10_UI_Catalog_Switches" />
+            <testcase name="test_10_UI_Catalog_Switches" time="62.847" classname="ios.scripts.Test_10_UI_Catalog_Switches" />
       
 </testsuite>

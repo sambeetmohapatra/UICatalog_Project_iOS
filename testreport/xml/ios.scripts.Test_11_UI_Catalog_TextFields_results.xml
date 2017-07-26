@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="137.059">
+           time="143.545">
   <properties />
   
   
-            <testcase name="test_11_UI_Catalog_TextFields" time="137.059" classname="ios.scripts.Test_11_UI_Catalog_TextFields" />
+            <testcase name="test_11_UI_Catalog_TextFields" time="143.545" classname="ios.scripts.Test_11_UI_Catalog_TextFields" />
       
 </testsuite>

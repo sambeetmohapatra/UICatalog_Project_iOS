@@ -83,7 +83,7 @@ public class Base_Class extends Utility {
 		// Add the Extent Reports
 		report.flush();
 		report.close();
-		Reporter.log(getFormatedDateTime()+" ***** Suite Execution Completed *****",true);
+		Reporter.log(getFormatedDateTime()+iOSDevice+" ; " +" ***** Suite Execution Completed *****",true);
 	}
 	
 						/*
