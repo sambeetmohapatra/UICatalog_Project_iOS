@@ -9,14 +9,14 @@
   <test name="iOSTest">
 
 <!--  ************** EXECUTE ALL THE Test Classes IN THE PACKAGE ***************-->   
-    <packages>
+   <!--  <packages>
       <package name="ios.scripts"/>
     </packages>  
-    
+     -->
      
- <!--  <classes>
+  <classes>
     <class name="ios.scripts.Test_01_Launch_UI_Catalog_HomePage"/>
     </classes>
-     -->
+     
   </test> <!-- Test -->
 </suite> <!-- Suite -->
