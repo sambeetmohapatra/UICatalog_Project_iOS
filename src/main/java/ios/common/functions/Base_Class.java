@@ -155,7 +155,7 @@ public class Base_Class extends Utility {
 			    caps = new DesiredCapabilities();
 				caps.setCapability("platformName", getProperty("platformName", PROPERTIES_FILE));
 				caps.setCapability("platformVersion", getProperty("platformVersion", PROPERTIES_FILE));
-				caps.setCapability("deviceName", getProperty("deviceName", PROPERTIES_FILE));
+				caps.setCapability("deviceName", getProperty("deviceName_iphone6", PROPERTIES_FILE));
 				caps.setCapability("noReset", true);
 		//Set Application Capabilities		
 				
@@ -169,7 +169,7 @@ public class Base_Class extends Utility {
 				driver.manage().timeouts().implicitlyWait(TimeOut, TimeUnit.SECONDS);
 		}
 		catch (Exception e) {
-			Reporter.log("Please Start/Restart Appium Server , Not Starting it Programatically , Please Open iPhone Simulator",true);
+			Reporter.log(" Please Open iPhone 6 Simulator or Appium Server",true);
 		}
 		}
 	
@@ -199,10 +199,12 @@ public class Base_Class extends Utility {
 					RotateApp(getProperty("Rotate_iPad", PROPERTIES_FILE));
 			}
 			catch (Exception e) {
-				Reporter.log("Please Open iPad Simulator",true);
+				Reporter.log("Please Open iPad Simulator or Appium Server",true);
 			}
 			}
+		
 	}
+	
 
 		
 }

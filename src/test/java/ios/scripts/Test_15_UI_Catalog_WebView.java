@@ -107,7 +107,7 @@ public class Test_15_UI_Catalog_WebView extends Base_Class {
 	click(mystore.Checkout_Cart_Items_Btn);
 	
 	Assert.assertTrue(isElementDisplayed(waitForElement(mystore.Shopping_Screen_Header_label)));
-	WebView_ScrollDown(1);
+	WebView_ScrollDown(2);
 	Wait(1);
 	takeScreenshot();
 	/*WebView_ScrollToBottom();
