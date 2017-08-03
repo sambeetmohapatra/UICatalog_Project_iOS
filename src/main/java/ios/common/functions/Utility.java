@@ -20,8 +20,8 @@ import org.testng.annotations.Listeners;
 import io.appium.java_client.ios.IOSDriver;
 
 /**
- * @author sambeetmohapatra
- *
+ *  UTILITY CLASS : All Reusable Methods are present here 
+ *   @author sambeetmohapatra 
  */
 @Listeners({org.uncommons.reportng.HTMLReporter.class,org.uncommons.reportng.JUnitXMLReporter.class})
 public class Utility implements Automation_Constants{
@@ -43,7 +43,7 @@ public class Utility implements Automation_Constants{
 	
 	public void Wait(int seconds){
 		try {
-			Reporter.log(getFormatedDateTime()+" - "+"Waiting for : " + seconds + " second(s)",true);
+			Reporter.log(getFormatedDateTime()+" - "+" Waiting for : " + seconds + " second(s)",true);
 			Thread.sleep(seconds*1000);
 			
 		} catch (InterruptedException e) {
@@ -82,16 +82,21 @@ public class Utility implements Automation_Constants{
 		
 			waitForElement(wb);
 			wb.click();
-			Reporter.log(getFormatedDateTime()+" - "+"Clicked :  "+wb,true);
+			Reporter.log(getFormatedDateTime()+" - "+" Clicked :  "+wb,true);
 		}	
-	
+	//Clear the fields 
+		public  void clearTextField(WebElement element) {
+			waitForElement(element);
+			element.clear();
+		}
+		
 	public void type(WebElement wb,String values){
 		while(true) {
 			try {
 		waitForElement(wb);
 		wb.clear();
 		wb.sendKeys(values);
-		Reporter.log(getFormatedDateTime()+" - "+"Send Keys :  "+wb,true);
+		Reporter.log(getFormatedDateTime()+" - "+" Send Keys :  "+wb,true);
 		break;
 			}
 			catch(Exception e) {
@@ -103,31 +108,31 @@ public class Utility implements Automation_Constants{
 	
 	public String showText(WebElement wb){
 		waitForElement(wb);
-		Reporter.log(getFormatedDateTime()+" - "+"Fetching the text : "+wb);
+		Reporter.log(getFormatedDateTime()+" - "+" Fetching the text : "+wb);
 		return wb.getText().trim();
 	}
 	
 	public String showAttribute(WebElement wb,String attribute){
 		waitForElement(wb);
-		Reporter.log(getFormatedDateTime()+" - "+"Fetching the Attribute : "+ attribute + " - Element : "+wb,true);
+		Reporter.log(getFormatedDateTime()+" - "+" Fetching the Attribute : "+ attribute + " - Element : "+wb,true);
 		return wb.getAttribute(attribute);
 		
 	}
 	public Alert switchToAlert(){
-		Reporter.log(getFormatedDateTime()+" - "+"Switched To Alert",true);
+		Reporter.log(getFormatedDateTime()+" - "+" Switched To Alert",true);
 		return driver.switchTo().alert();
 
 	}
 	public Alert acceptAlert(){
 		Alert alert = driver.switchTo().alert();
 		alert.accept();
-		Reporter.log("Accept Alert",true);
+		Reporter.log(getFormatedDateTime()+" - "+" Accepted Alert",true);
 		return alert;
 	}
 	public Alert dismissAlert(){
 		Alert alert = driver.switchTo().alert();
 		alert.dismiss();
-		Reporter.log(getFormatedDateTime()+" - "+"Dismiss Alert",true);
+		Reporter.log(getFormatedDateTime()+" - "+" Dismissed Alert",true);
 		return alert;
 	}
 	public void swipeDown_Vertical(int noOfTimes){
@@ -143,7 +148,7 @@ public class Utility implements Automation_Constants{
 		  }
 		  System.out.println("starty = " + starty + " ,endy = " + endy + " , startx = " + startx);
 
-		Reporter.log(getFormatedDateTime()+" - "+"Swiping Vertically Down ",true);
+		Reporter.log(getFormatedDateTime()+" - "+" Swiping Vertically Down ",true);
 		for(int i = 0 ;i<noOfTimes;i++){
 		driver.swipe(startx, starty, startx, endy, 1000);
 		}
@@ -160,7 +165,7 @@ public class Utility implements Automation_Constants{
 		  }
 		  System.out.println("starty = " + starty + " ,endy = " + endy + " , startx = " + startx);
 
-		Reporter.log(getFormatedDateTime()+" - "+"Swiping Vertically Up",true);
+		Reporter.log(getFormatedDateTime()+" - "+" Swiping Vertically Up",true);
 		for(int i = 0 ;i<noOfTimes;i++){
 		driver.swipe(startx, endy, startx, starty, 1000);
 		}
@@ -258,7 +263,7 @@ public class Utility implements Automation_Constants{
 	public void goBack(){
 		if(iOSDevice.equalsIgnoreCase("iPhone")) {
 		driver.navigate().back();
-		Reporter.log(getFormatedDateTime()+" - "+"Go Back",true);
+		Reporter.log(getFormatedDateTime()+" - "+" Go Back",true);
 		}
 		else 	if(iOSDevice.equalsIgnoreCase("iPad")) {
 		
@@ -291,6 +296,20 @@ public class Utility implements Automation_Constants{
 		Reporter.log(getFormatedDateTime()+" - "+" Single Tap On Element : " +wb,true);
 
 	}
+
+/*Extra Reusable methods*/
+	
+	public  void passThisStep(String reasonForPass) {
+		Assert.assertTrue(true, reasonForPass);
+		}
+
+	public  void failThisStep(String reasonForFailing) {
+		Assert.fail(reasonForFailing);
+		}
+	
+	
+	
+			/************************** WEB VIEW METHODS *********************************/
 	
 	public void WebView_ScrollDown(int noOfTimes) {
 		Reporter.log(getFormatedDateTime()+ " - " +" Web View : Scrolling Down : " ,true);
@@ -316,5 +335,3 @@ public class Utility implements Automation_Constants{
 			
 		}
 	}
-	
-	
