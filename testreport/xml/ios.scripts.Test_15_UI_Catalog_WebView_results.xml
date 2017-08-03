@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="53.548">
+           time="50.943">
   <properties />
   
   
-            <testcase name="test_15_UI_Catalog_WebView" time="53.548" classname="ios.scripts.Test_15_UI_Catalog_WebView" />
+            <testcase name="test_15_UI_Catalog_WebView" time="50.943" classname="ios.scripts.Test_15_UI_Catalog_WebView" />
       
 </testsuite>

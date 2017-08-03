@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="58.398">
+           time="60.689">
   <properties />
   
   
-            <testcase name="test_07_UI_Catalog_SegmentedControls" time="58.398" classname="ios.scripts.Test_07_UI_Catalog_SegmentedControls" />
+            <testcase name="test_07_UI_Catalog_SegmentedControls" time="60.689" classname="ios.scripts.Test_07_UI_Catalog_SegmentedControls" />
       
 </testsuite>
