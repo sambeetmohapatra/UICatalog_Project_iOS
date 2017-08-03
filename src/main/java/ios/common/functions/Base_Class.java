@@ -47,7 +47,7 @@ public class Base_Class extends Utility {
 	@BeforeMethod
 	public void before_Method() throws Exception{
 			logger=report.startTest(this.getClass().getSimpleName());
-			Reporter.log("********************* "+this.getClass().getName().trim().toUpperCase()+" *********************",true);
+			Reporter.log(getFormatedDateTime()+"  ********************* "+this.getClass().getName().trim().toUpperCase()+" *********************",true);
 			
 	}
 	
@@ -58,7 +58,7 @@ public class Base_Class extends Utility {
 	        {
 	            String screenShotPath = Screenshot.getErrorCapture("Failed_TC_"+result.getMethod().getMethodName());
 	            logger.log(LogStatus.FAIL, result.getThrowable());
-	            logger.log(LogStatus.FAIL, "Snapshot below: " + logger.addScreenCapture(screenShotPath));
+	            logger.log(LogStatus.FAIL, " - Snapshot below: " + logger.addScreenCapture(screenShotPath));
 	            goBack();
 	        }
 		}
@@ -68,8 +68,8 @@ public class Base_Class extends Utility {
 		//Close App
 		
 		
-		logger.log(LogStatus.PASS, " End of Test Case :  Device Used : " +iOSDevice+" ; " +result.getMethod().getMethodName().toUpperCase()+" ; Closed Application");
-		Reporter.log(getFormatedDateTime()+"***************** Execution Complete : " +result.getMethod().getMethodName().toUpperCase()+" ******************",true);
+		logger.log(LogStatus.PASS, " - End of Test Case :  Device Used : " +iOSDevice+" ; " +result.getMethod().getMethodName().toUpperCase()+" ; Closed Application");
+		Reporter.log(getFormatedDateTime()+"  ***************** Execution Complete : " +result.getMethod().getMethodName().toUpperCase()+" ******************",true);
 		//End of Test Case - Method - Extent Reports
 		report.endTest(logger);
 	}
@@ -77,13 +77,13 @@ public class Base_Class extends Utility {
 	@AfterSuite
 	public void after_Suite(){
 		driver.quit();
-		Reporter.log(getFormatedDateTime()+" App Closed ",true);
+		Reporter.log(getFormatedDateTime()+" - App Closed ",true);
 		
 		//stopServer();
 		// Add the Extent Reports
 		report.flush();
 		report.close();
-		Reporter.log(getFormatedDateTime()+"*** "+iOSDevice+" ; " +" ***** Suite Execution Completed *****",true);
+		Reporter.log(getFormatedDateTime()+"  *** "+iOSDevice+" | " +"  ***** Suite Execution Completed *****",true);
 	}
 	
 						/*
@@ -94,7 +94,7 @@ public class Base_Class extends Utility {
 	//Take Screenshot and add it to Extent Reports also
 	public void takeScreenshot(){
 		Wait(1);
-		Reporter.log(getFormatedDateTime()+" Capturing Screenshot and Adding to Extent Reports",true);
+		Reporter.log(getFormatedDateTime()+" - Capturing Screenshot and Adding to Extent Reports",true);
         logger.log(LogStatus.INFO, logger.addScreenCapture( new Screenshot().capture(this.getClass().getName())));
 	}
 	//Start Appium Server Method -Mac
@@ -115,7 +115,7 @@ public class Base_Class extends Utility {
 			    Wait(8);*/
 		
 		if(process!=null)
-			System.out.println(" Started Appium Server");
+			System.out.println(" - Started Appium Server");
 		else
 			System.out.println(" Unable to launch Appium Server");
 	}
@@ -127,7 +127,7 @@ public class Base_Class extends Utility {
 		String[] command = { "/usr/bin/killall", "-9", "node" };
 		try {
 		Runtime.getRuntime().exec(command);
-		System.out.println("Appium server stopped.");
+		System.out.println(" - Appium server stopped.");
 		} catch (IOException e) {
 		e.printStackTrace();
 		}
@@ -150,7 +150,7 @@ public class Base_Class extends Utility {
 		if(iOSDevice.equalsIgnoreCase("iPhone")) {
 		try {
 		//Set Desired Capabilities
-		Reporter.log(getFormatedDateTime()+" Set Desired Capabilities - iOS : "+iOSDevice,true);
+		Reporter.log(getFormatedDateTime()+" -  Set Desired Capabilities - iOS : "+iOSDevice,true);
 				
 			    caps = new DesiredCapabilities();
 				caps.setCapability("platformName", getProperty("platformName", PROPERTIES_FILE));
@@ -163,7 +163,7 @@ public class Base_Class extends Utility {
 				//caps.setCapability("app", getProperty("app_path", PROPERTIES_FILE));
 		// Launch iOSDriver
 				
-				Reporter.log(getFormatedDateTime()+" Launch iOSDriver : "+caps,true);
+				Reporter.log(getFormatedDateTime()+" - Launch iOSDriver : "+caps,true);
 				
 				driver = new IOSDriver<WebElement>(new URL(APPIUM_SERVER_URL), caps);
 				driver.manage().timeouts().implicitlyWait(TimeOut, TimeUnit.SECONDS);
