@@ -58,7 +58,7 @@ public class Base_Class extends Utility {
 	        {
 	            String screenShotPath = Screenshot.getErrorCapture("Failed_TC_"+result.getMethod().getMethodName());
 	            logger.log(LogStatus.FAIL, result.getThrowable());
-	            logger.log(LogStatus.FAIL, " - Snapshot below: " + logger.addScreenCapture(screenShotPath));
+	            logger.log(LogStatus.FAIL, "Snapshot below: " + logger.addScreenCapture(screenShotPath));
 	            goBack();
 	        }
 		}
@@ -68,7 +68,7 @@ public class Base_Class extends Utility {
 		//Close App
 		
 		
-		logger.log(LogStatus.PASS, " - End of Test Case :  Device Used : " +iOSDevice+" ; " +result.getMethod().getMethodName().toUpperCase()+" ; Closed Application");
+		logger.log(LogStatus.PASS, "End of Test Case :  Device Used : " +iOSDevice+" ; " +result.getMethod().getMethodName().toUpperCase()+" ; Closed Application");
 		Reporter.log(getFormatedDateTime()+"  ***************** Execution Complete : " +result.getMethod().getMethodName().toUpperCase()+" ******************",true);
 		//End of Test Case - Method - Extent Reports
 		report.endTest(logger);
