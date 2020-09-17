@@ -40,7 +40,7 @@ public class Base_Class extends Utility {
 		
 		report = new ExtentReports(REPORT_PATH+getFormatedDateTime()+".html");
 		report.loadConfig(new File(EXTENT_CONFIG_FILE));
-	//	startServer();
+		//startServer();
 		Launch_App();
 	}
 	
@@ -169,7 +169,7 @@ public class Base_Class extends Utility {
 				driver.manage().timeouts().implicitlyWait(TimeOut, TimeUnit.SECONDS);
 		}
 		catch (Exception e) {
-			Reporter.log(" Please Open iPhone 6 Simulator or Appium Server",true);
+			Reporter.log(" Please Open iPhone or Appium Server " + e,true);
 		}
 		}
 	
